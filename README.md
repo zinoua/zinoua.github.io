@@ -2,11 +2,11 @@
 
 ## Potential Final Project Directions
 
-### Option 1: Comparative Taphonomy & Taxonomy — Almond Fm. (WY) vs. Judith River Fm. (MT)
+### Option 1: Comparative Taphonomy & Taxonomy - Almond Formation (Wyoming) vs. Judith River Formation (Montana)
 
 **Goal:** Determine whether two Late Cretaceous vertebrate microfossil bonebeds (VMBs) differ significantly in taxonomic composition and taphonomic (shape) signatures, and what that reveals about their depositional environments.
 
-**Data:** Taxon and shape counts from the Almond Formation (Turtle Hill, WY), collected during a 2026 Keck Geology Consortium REU I was part of; comparative data from the Judith River Formation (MT), which is from a previous Keck REU project. 
+**Data:** Taxon and shape counts from the Almond Formation (Turtle Hill, WY), collected during a 2026 Keck Geology Consortium REU I was part of; I will aim to use comparative data from the Judith River Formation (MT), which is from a previous Keck REU project. 
 
 **Key questions:**
 - Does taxonomic composition differ significantly between the two localities, and which taxa drive that difference?
