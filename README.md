@@ -38,3 +38,25 @@
 - Has streamflow in the basin significantly increased, decreased, or stayed flat over the available record?
 - Does streamflow track regional precipitation trends, or are other factors involved?
 - What might a detected trend mean for local agriculture (wine, wheat) and water resource planning?
+
+
+Final Project: Syria’s 2006-2010 Drought Unprecedented? A Deep-Time and Modern Perspective
+
+Goal: Determine whether the severe drought Syria experienced in 2006-2010 is unusual in the context of thousands of years of natural climate variability, using a paleoclimate proxy record. Then situate that finding within the broader human context of population, migration, and water governance that have shaped on-ground impacts of climate change. 
+Key Questions
+How does the magnitude of the 2006-2010 drought compare to natural variability recorded across the Holocene (speleothem records)? 
+Will it be possible to use the modern PDSI record and compare it to the range of moisture/aridity records (oxygen-18)?
+Are there past intervals in the proxy record oxygen-18 values reach levels comparable to or more extreme than those for 2006–2010, and if the data's resolution allows, how long did those intervals persist?
+Has the proxy record ever captured evidence of a climatic shift occurring as rapidly as the 2006-2010 drought?
+Does the rate of change in the modern PDSI record stand out relative to natural rates of change in the proxy record?
+Does the regional CRU TS air temperature record show any warming trends, and is that trend plausibly linked to the severity of the 2006–2010 drought?
+Did rural-to-urban migration accelerate during/after the 2006–2010 drought relative to the pre-drought trend, and does that align with agricultural yield decline?
+
+
+Techniques
+Time-series realignment across mismatched resolutions (annual instrumental data vs decadal/centennial proxy data)
+Rate-of-change (first-derivative) comparison.
+
+
+Scope: While the statistical analysis focuses on climate data, the project's discussion will also incorporate the well-documented role of population growth and poor agricultural/water-management policy in Syria in also shaping this crisis, since governance quality isn't a variable that can be cleanly quantified.
+
