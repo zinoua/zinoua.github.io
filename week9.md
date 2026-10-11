@@ -1,12 +1,15 @@
----
-layout: default
-title: Project Update – Week 9
-permalink: /week9/
----
-[Home](/) | [Week 11](/week1/) | [Week 12](/week12/)
 
 ---
-# Project Update – Week 9
+layout: default
+title: Week 9 – Project Directions and Proposal
+permalink: /week9/
+---
+
+[Home](/) | [Week 9](/week9/) | [Week 11](/week11/) | [Week 12](/week12/)
+
+---
+
+# Week 9 – Final Project Directions and Proposal
 
 ## Potential Final Project Directions
 
