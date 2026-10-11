@@ -10,7 +10,6 @@ permalink: /week12/
 
 # Project Update – Week 12
 
-
 **Is Syria's 2006–2010 Drought Unprecedented? A Historical and Modern Perspective**
 
 ## 1. From data preparation to exploratory analysis
