@@ -1,11 +1,14 @@
+
 ---
 layout: default
 title: Project Update – Week 11
 permalink: /week11/
 ---
-[Home](/) | [Week 9](/week9/) | [Week 12](/week12/)
+
+[Home](/) | [Week 9](/week9/) | [Week 11](/week11/) | [Week 12](/week12/)
 
 ---
+
 # Project Update – Week 11
 
 **Is Syria's 2006-2010 Drought Unprecedented? A Historical and Modern Perspective.**
@@ -27,13 +30,13 @@ My question is whether the 2006-2010 drought in Syria was unusual compared with 
 
 **Syria-specific data**
 
-- [FAOSTAT](https://www.fao.org/faostat/en/#data/QCL) crop yield and production for wheat, barley, lentils, and seed cotton, 1961–2014. Wheat, barley, and lentils are mostly rainfed and cotton is irrigated, so I can compare how each type held up. 
+- [FAOSTAT](https://www.fao.org/faostat/en/#data/QCL) crop yield and production for wheat, barley, lentils, and seed cotton, 1961–2014. Wheat, barley, and lentils are mostly rainfed and cotton is irrigated, so I can compare how each type held up.
 - [AQUASTAT](https://data.apps.fao.org/aquastat/?lang=en): ten irrigation and water-use variables, mostly 1993–2014.
 - [UN Population Data Portal](https://population.un.org/dataportal/): urban share, urban growth rate, and urban population for Syria, 1950–2014.
 
 ## 2. How I got the data
 
-Everything is in my[ project data folder](https://drive.google.com/drive/folders/1SlS2CBP3NEIGqpVvbBkQ1oh_Lz2Y7Hsj). PDSI, the cave files, FAOSTAT, AQUASTAT, and the UN data came straight from their portals. CRU TS came from CEDA, which needs a free login. My first downloads saved a login page instead of the data, so I had to redo them. I drew the Fertile Crescent polygon myself in Google Earth.
+Everything is in my [project data folder](https://drive.google.com/drive/folders/1SlS2CBP3NEIGqpVvbBkQ1oh_Lz2Y7Hsj). PDSI, the cave files, FAOSTAT, AQUASTAT, and the UN data came straight from their portals. CRU TS came from CEDA, which needs a free login. My first downloads saved a login page instead of the data, so I had to redo them. I drew the Fertile Crescent polygon myself in Google Earth.
 
 ## 3. What each dataset can and can't tell me
 
@@ -60,15 +63,13 @@ For Gejkar, I kept only five-year windows with at least three measurements, whic
 
 This doesn't prove the drought was unprecedented. The qualifying windows only cover two stretches, 415 BCE to about 350 CE and about 1896 to 2010 CE. From about 351 to 933 CE (about 580 years), the record has no samples, and from about 933 to 1896, sampling is roughly one sample every three years, so a five-year window rarely yields three samples. Requiring at least 2, 3, or 4 samples per window leaves 313, 93, or 46 qualifying historical windows, respectively. The 2006–2010 interval still has the highest mean δ¹⁸O in all three comparisons, suggesting that its ranking is robust to the minimum-sample thresholds I tested, even though historical coverage changes substantially. With the 2-sample rule, 144 of those windows start between 933 and 1896 CE, so even in the stretch the 3-sample version misses, no window is as dry as 2006-2010. Two-sample means are noisier, so I treat the 3-sample version as my main result. I use the combined cave plot for regional context, and I don't compare raw δ18O across caves because each cave has its own baseline. The same number at two different caves doesn't mean the same amount of dryness, as δ18O is shaped by more than rainfall. It depends on where the water vapour came from, how far it travelled, the local temperature, the cave's elevation and position, and how water moves through the rock above the cave before it drips onto the stalagmite. Every cave has its own mix of those factors.
 
-**The other datasets:&#xA0;**
+**The other datasets:**
 
 - **PDSI:** May 2008 was the driest month in my regional PDSI series (−4.96). The average PDSI during 2006-2010 was approximately −1.42, lower than 88% of individual monthly observations in the record. However, this comparison does not establish how unusual the five-year drought was relative to other five-year periods. I will investigate that during the next stage of analysis.
 - **FAOSTAT**: in 2008, wheat, barley, and lentil yields were about 48%, 80%, and 79% below 2006. Cotton rose 24% in 2008 and was 14% below 2006 by 2010. So the rainfed crops took the big hit in 2008 while irrigated cotton held up better.
 - **UN population:** Syria's annual urban population growth rate peaked at 7.32% in 2007, the highest of the 65 years in the file, up from 3.09% in 2004.
 - **AQUASTAT:** groundwater-irrigated area dropped about 24% between 2004 and 2009 (864,700 to 656,200 ha). It is the only variable in the drought window that isn't flagged as estimated or imputed.
 - **CRU TS:** Temperature and potential evapotranspiration (PET) have a strong positive correlation in the monthly regional data (r = 0.95). This makes sense because temperature is one of the variables used to calculate PET, and both follow seasonal cycles. However, PET also incorporates other atmospheric conditions, including vapour pressure and cloud cover, so the two variables are not interchangeable. I would need to remove seasonal variation or examine longer-term trends before determining how much additional information PET provides.
-
-
 
 **6. Challenges and next steps**
 
