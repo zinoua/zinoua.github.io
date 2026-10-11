@@ -11,8 +11,6 @@ permalink: /week11/
 # Project Update – Week 11
 
 
-# Project Update – Week 11
-
 **Is Syria's 2006-2010 Drought Unprecedented? A Historical and Modern Perspective.**
 
 ## 1. Data sources and why I chose them
