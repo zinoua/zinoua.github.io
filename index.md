@@ -2,7 +2,6 @@
 ---
 layout: default
 title: Syria's 2006–2010 Drought – A Historical and Modern Perspective
-permalink: /
 ---
 
 [Home](/) | [Week 9](/week9/) | [Week 11](/week11/) | [Week 12](/week12/)
