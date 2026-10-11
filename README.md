@@ -9,8 +9,9 @@ This repository hosts my CS-215 Data Science final project website. I am investi
 
 ## Project updates
 
-- [Week 9 – Initial Project Directions and Proposal](https://zinoua.github.io/week9/)
-- [Week 11 – Data Collection, Cleaning, and Preliminary Findings](https://zinoua.github.io/week11/)
-- [Week 12 – Exploratory Analysis and Interactive Visualization](https://zinoua.github.io/week12/)
+- **[Week 9 – Project Directions and Proposal](/week9.html):** The original project ideas, selected topic, and initial research questions.
+- **[Week 11 – Data Collection and Preliminary Findings](/week11.html):** Data sources, acquisition, cleaning, and early results.
+- **[Week 12 – Exploratory Analysis and Interactive Visualization](/week12.html):** An interactive Gejkar Cave figure, five-year PDSI comparison, and preliminary findings.
+
 
 The homepage will develop into the final research article as the analysis progresses. The weekly pages document how the project developed.
