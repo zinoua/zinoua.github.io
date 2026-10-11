@@ -5,7 +5,7 @@ title: Week 9 – Project Directions and Proposal
 permalink: /week9/
 ---
 
-[Home](/) | [Week 9](/week9/) | [Week 11](/week11/) | [Week 12](/week12/)
+[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html)
 
 ---
 
@@ -87,4 +87,4 @@ After further deliberation, I decided to pursue the second option and expand its
 
 This page documents my original Week 9 proposal. The project's datasets, methods, and research questions have continued to develop as I began working with the data.
 
-[Read my Week 11 Update – Data Collection, Cleaning, and Preliminary Findings](/week11/)
+[Read my Week 11 Update – Data Collection, Cleaning, and Preliminary Findings](/week11.html)
