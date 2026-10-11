@@ -4,7 +4,7 @@ title: Week 9 – Project Directions and Proposal
 permalink: /week9/
 ---
 
-[Home](/) |
+[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html)
 
 ---
 
