@@ -24,9 +24,9 @@ The main challenge is distinguishing what the datasets suggest from what they ca
 
 ## Project updates
 
-- **[Week 9 – Project Directions and Proposal](/week9.html):** The original project ideas, selected topic, and initial research questions.
-- **[Week 11 – Data Collection and Preliminary Findings](/week11.html):** Data sources, acquisition, cleaning, and early results.
-- **[Week 12 – Exploratory Analysis and Interactive Visualization](/week12.html):** An interactive Gejkar Cave figure, initial interpretations, and next steps.
+- **[Week 9 – Project Directions and Proposal](/week9/):** The original project ideas, selected topic, and initial research questions.
+- **[Week 11 – Data Collection and Preliminary Findings](/week11/):** Data sources, acquisition, cleaning, and early results.
+- **[Week 12 – Exploratory Analysis and Interactive Visualization](/week12/):** An interactive Gejkar Cave figure, initial interpretations, and next steps.
 
 
 ## Preliminary findings
