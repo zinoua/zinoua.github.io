@@ -14,7 +14,7 @@ permalink: /week12/
 
 ## 1. From data preparation to exploratory analysis
 
-After spending Week 11 obtaining and cleaning my datasets, I've started focusing more on exploratory analysis and visualizing what the data reveal.
+After  obtaining and cleaning my datasets, I've started focusing more on exploratory analysis and visualizing what the data reveal.
 
 One of the main challenges is comparing a five-year drought with a paleoclimate record that spans roughly 2,400 years but has uneven sampling. I developed five-year windows for the Gejkar Cave δ¹⁸O record and am now using those results to investigate how unusual the 2006–2010 period appears in the historical record.
 
