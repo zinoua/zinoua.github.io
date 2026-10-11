@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Project Update – Week 12
-permalink: /week12/
+permalink: /week12.html
 ---
 
-[Home](/) |
+[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html)
 
 ---
 
@@ -14,66 +14,83 @@ permalink: /week12/
 
 ## 1. From data preparation to exploratory analysis
 
-After  obtaining and cleaning my datasets, I've started focusing more on exploratory analysis and visualizing what the data reveal.
+After spending Week 11 obtaining and cleaning my datasets, I have shifted toward comparing drought conditions across different timescales and visualizing the results. My main challenge is finding fair ways to compare a five-year drought against records with very different sampling frequencies and geographical coverage.
 
-One of the main challenges is comparing a five-year drought with a paleoclimate record that spans roughly 2,400 years but has uneven sampling. I developed five-year windows for the Gejkar Cave δ¹⁸O record and am now using those results to investigate how unusual the 2006–2010 period appears in the historical record.
-
-This week, I also began working with Plotly to make the visualizations interactive, rather than relying only on static Matplotlib figures.
+This week, I developed an interactive Plotly visualization for the Gejkar Cave isotope record and expanded my PDSI analysis from individual months to rolling five-year averages. Both analyses investigate the same drought, but they use different measures of climate and cover different historical periods.
 
 ## 2. Interactive visualization: Gejkar Cave
 
-The figure below shows the mean δ¹⁸O of qualifying five-year windows from Gejkar Cave in northern Iraq. Higher δ¹⁸O values are generally associated with drier conditions at this site.
+The interactive figure below shows mean oxygen-isotope values (δ¹⁸O) for five-year windows in the Gejkar Cave record from northern Iraq. Higher δ¹⁸O values are generally associated with drier conditions at this cave, although the isotope signal is also influenced by factors such as temperature, moisture sources, and cave hydrology.
 
-Each point represents a five-year window with at least three measurements. The vertical bars show the minimum and maximum observed δ¹⁸O values within each window, rather than statistical uncertainty.
-
-The 2006–2010 interval is highlighted in red. Hovering over the points reveals the years covered, mean δ¹⁸O, number of samples, and minimum and maximum measurements.
+Each point represents a five-year window containing at least three isotope measurements. The vertical bars show the observed minimum and maximum within that window; they are **not confidence intervals**. The 2006–2010 interval is highlighted in red. Hovering over a point shows its dates, sample count, and isotope measurements.
 
 <iframe
   src="/assets/gejkar_5yr.html"
   width="100%"
   height="600"
   style="border:none;"
-  title="Interactive Gejkar visualization">
+  title="Interactive Gejkar Cave five-year isotope comparison">
 </iframe>
+
+The shaded areas distinguish a period without samples from a later period with measurements that are too sparse to produce five-year windows meeting the three-sample requirement.
 
 ## 3. What the Gejkar analysis reveals
 
-The 2006–2010 window has a mean δ¹⁸O of −3.137‰ VPDB, calculated from five measurements. It has the highest mean among the 94 qualifying five-year windows in the analysis. The next highest is 2001–2005, with a mean of approximately −3.66‰.
+The 2006–2010 window has a mean δ¹⁸O of **−3.137‰ VPDB**, calculated from five measurements. It has the highest mean among the **94 qualifying five-year windows**, including the modern interval. The next highest is 2001–2005, with a mean of approximately −3.66‰.
 
-However, the plot also reveals an important limitation. The record contains no measurements between approximately 351 and 933 CE, and sampling between 933 and 1896 is generally too sparse for five-year windows to meet the three-sample requirement.
+However, the historical coverage is uneven. There are no cave measurements between approximately 351 and 933 CE. Between about 933 and 1896 CE, measurements exist, but the five-year windows do not meet my main three-sample requirement.
 
-I also tested whether changing the minimum number of samples would affect the result:
+I tested how the result changes when I require different minimum numbers of measurements:
 
-| Minimum samples | Historical windows retained | Windows with equal or higher mean δ¹⁸O |
+| Minimum samples per window | Historical windows retained | Historical windows with equal or higher mean δ¹⁸O |
 |---|---:|---:|
 | 2 | 313 | 0 |
 | 3 | 93 | 0 |
 | 4 | 46 | 0 |
 
-The modern interval remains the highest under all three requirements. This suggests that the finding is robust to the particular sample thresholds I tested, although the amount of historical coverage changes substantially.
+The modern interval remains the highest under all three thresholds. This makes the result less dependent on my choice of minimum sample count, but the number of historical windows available for comparison changes considerably. These five-year windows are also non-overlapping, so their placement may influence which historical events are captured.
 
-This still doesn't establish that the Syrian drought was unprecedented. Gejkar is a regional paleoclimate proxy, not a direct rainfall record for Syria, and uneven sampling and age-model uncertainty limit comparisons of short events across the historical record.
+**This does not establish that the 2006–2010 drought was unprecedented across the entire historical record.** Gejkar is a cave in northern Iraq rather than a direct rainfall record for Syria, and gaps, irregular sampling, and age uncertainty limit comparisons of short events.
 
-## 4. Exploring the modern drought record
+## 4. PDSI: Comparing five-year drought severity
 
-My next comparison focuses on the NOAA Palmer Drought Severity Index (PDSI), which provides monthly instrumental-era drought estimates for the Fertile Crescent.
+My earlier PDSI plot showed monthly drought conditions across the Fertile Crescent and identified **May 2008** as the driest individual month in my regional series, at approximately **−4.96**. But one extreme month cannot tell us whether an entire five-year drought was unprecedented.
 
-My preliminary analysis identified May 2008 as the driest individual month in the regional series, with a PDSI value of approximately −4.96.
+To compare periods of equal duration, I calculated a **60-month rolling mean** of regional PDSI. Each point represents the average of that month and the preceding 59 months, giving a full five years of observations. Lower PDSI values indicate drier conditions. I compared the January 2006–December 2010 mean with rolling windows ending before 2006.
 
-However, the main question is not whether one month was exceptionally dry. I want to determine how unusual the average conditions during 2006–2010 were compared with other five-year periods.
+![Five-year rolling average PDSI for the Fertile Crescent, highlighting the 1958–1963 and 2006–2010 drought intervals](/assets/pdsi_5yr.png)
 
-I plan to calculate historical five-year PDSI averages and visualize the result. This will provide an instrumental comparison to place alongside the longer Gejkar record, although the two measure different aspects of climate.
+*Figure: Regional PDSI averaged over rolling 60-month windows. Each point is plotted at the end of its five-year window. The highlighted intervals identify the modern drought and the driest earlier comparison period.*
 
-## 5. Challenges and next steps
+The **2006–2010 mean PDSI was −1.416**. Of the **1,501 earlier rolling five-year windows**, approximately **99.5% had higher (wetter) mean PDSI**. Only eight earlier windows were as dry or drier.
 
-The main challenge continues to be determining what comparisons the available data can support. The cave records have uneven sampling and uncertain historical dates, while the regional PDSI record has a much shorter timeline and relatively coarse spatial resolution.
+Those eight windows were not eight separate drought events. They overlap heavily and all belong to an earlier dry episode around **1958–1963**. The lowest earlier five-year mean was approximately **−1.589**, for **April 1958–March 1963**.
 
-For the final project, I plan to focus on three questions:
+This means that **2006–2010 was exceptionally dry in the instrumental regional record, but not the driest five-year interval** under this method. Because the rolling windows overlap, their count should not be treated as a count of independent drought events.
 
-1. How unusual was the 2006–2010 drought compared with earlier five-year periods in the modern PDSI record?
-2. How does the Gejkar δ¹⁸O signal during 2006–2010 compare with qualifying historical intervals?
-3. How did agricultural yields change during the drought, and how do those changes relate to regional drought conditions?
+There are also spatial limitations. PDSI is available on a coarse 2.5° grid, and I included all grid cells touched by my Fertile Crescent polygon. The number of available regional cells also changes during the early part of the record. I still need to test how sensitive the historical comparison is to these choices before drawing a final conclusion.
 
-I will also use temperature, PET, water-use, and population data where they help provide context, while recognizing that associations between these variables do not necessarily establish causation.
+## 5. Comparing the two climate records
 
-The goal is to develop the exploratory findings into a more complete analysis, with visualizations and a narrative that clearly explains both the results and their limitations.
+The Gejkar and PDSI results offer different perspectives. The 2006–2010 isotope mean is the highest among qualifying Gejkar windows, while the regional PDSI record includes an earlier five-year interval around 1958–1963 that was drier by its index.
+
+This is not necessarily a contradiction. The cave record reflects local environmental and hydrological processes, whereas regional PDSI estimates drought conditions across a much larger area. Their time coverage, sampling frequency, and uncertainties are also different. I cannot directly convert Gejkar δ¹⁸O values into PDSI values or assume that they describe identical drought conditions.
+
+Together, they suggest that the answer to whether the drought was “unprecedented” depends on **which indicator, region, and timescale** I use.
+
+## 6. Challenges and next steps
+
+My remaining work is to investigate the wider impacts of the drought and strengthen the sensitivity checks on the climate results. I plan to:
+
+1. Plot Syrian wheat, barley, lentil, and seed-cotton yields over the full FAOSTAT record to see whether the declines around 2008 stand out from earlier fluctuations.
+2. Examine regional temperature and potential evapotranspiration trends, taking seasonal variability into account.
+3. Test whether different choices of PDSI spatial coverage change the five-year drought ranking.
+4. Use AQUASTAT and UN population data as supporting context without treating national trends as proof that drought caused particular changes in irrigation or migration.
+
+For the final project, I want to bring these analyses together into a clear narrative that distinguishes severe climatic conditions from their possible social and agricultural consequences, while explaining what the data cannot establish.
+
+## Data and methods
+
+The climate analyses use the [NOAA PDSI dataset](https://psl.noaa.gov/data/gridded/data.pdsi.html) and the [NOAA Gejkar Cave paleoclimate record](https://www.ncei.noaa.gov/access/paleo-search/study/40686). More details about the other datasets and cleaning methods are documented in my [Week 11 update](/week11.html).
+
+I used AI assistance to help write, troubleshoot, and refine Python code and visualization methods, and reviewed the outputs against my data and research questions.
