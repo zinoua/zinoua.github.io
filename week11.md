@@ -3,7 +3,9 @@ layout: default
 title: Project Update – Week 11
 permalink: /week11/
 ---
+[Home](/) | [Week 9](/week9/) | [Week 11](/week11/)
 
+---
 # Project Update – Week 11
 
 **Is Syria's 2006-2010 Drought Unprecedented? A Historical and Modern Perspective.**
