@@ -34,7 +34,7 @@ The 2006–2010 interval is highlighted in red. Hovering over the points reveals
   width="100%"
   height="600"
   style="border:none;"
-  title="Interactive Gejkar Cave five-year isotope visualization">
+  title="Interactive Gejkar visualization">
 </iframe>
 
 ## 3. What the Gejkar analysis reveals
