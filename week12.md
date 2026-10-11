@@ -1,15 +1,15 @@
-
 ---
 layout: default
 title: Project Update – Week 12
 permalink: /week12/
 ---
 
-[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html)
+[Home](/) | [Week 9](/week9/) | [Week 11](/week11/) | [Week 12](/week12/)
 
 ---
 
 # Project Update – Week 12
+
 
 **Is Syria's 2006–2010 Drought Unprecedented? A Historical and Modern Perspective**
 
