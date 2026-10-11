@@ -12,5 +12,6 @@ The project combines data from NOAA, CRU TS, FAOSTAT, AQUASTAT, and the UN Popul
 
 - [Week 9 – Initial Project Directions and Proposal](https://zinoua.github.io/week9/)
 - [Week 11 – Data Collection and Preliminary Findings](https://zinoua.github.io/week11/)
+- [Week 12 – Exploratory Analysis & Interactive Figures](https://zinoua.github.io/week12/)
 
 The final analysis will be presented through a Google Colab notebook, supporting visualizations, and a research narrative on the project website.
