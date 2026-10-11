@@ -6,7 +6,7 @@ permalink: /week9/
 
 # Week 9 – Final Project Directions and Proposal
 
-[Home](/) | [Week 11 Update](/week11/)
+[Home](/) | [Week 11 Update](/week11/) | [Week 12 Update](/week12/)
 
 ## Potential Final Project Directions
 
