@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Update – Week 11
-permalink: /week11/
+permalink: /week11.html
 ---
 
 [Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html)
