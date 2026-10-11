@@ -3,7 +3,7 @@ layout: default
 title: Project Update – Week 11
 permalink: /week11/
 ---
-[Home](/) | [Week 11 Update](/week11/) | [Week 12 Update](/week12/)
+[Home](/) | [Week 9](/week9/) | [Week 12](/week12/)
 
 ---
 # Project Update – Week 11
