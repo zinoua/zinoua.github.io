@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Week 9 – Project Directions and Proposal
+title: Project Update – Week 9
 permalink: /week9/
 ---
+[Home](/) | [Week 11](/week1/) | [Week 12](/week12/)
 
-# Week 9 – Final Project Directions and Proposal
-
-[Home](/) | [Week 11 Update](/week11/) | [Week 12 Update](/week12/)
+---
+# Project Update – Week 9
 
 ## Potential Final Project Directions
 
