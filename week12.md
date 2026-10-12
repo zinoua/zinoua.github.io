@@ -138,10 +138,9 @@ Overall, the agricultural records show substantial disruption during the drought
 
 My remaining work is to investigate the wider impacts of the drought and strengthen the sensitivity checks on the climate results. I plan to:
 
-1. Plot Syrian wheat, barley, lentil, and seed-cotton yields over the full FAOSTAT record to see whether the declines around 2008 stand out from earlier fluctuations.
-2. Examine regional temperature and potential evapotranspiration trends, taking seasonal variability into account.
-3. Test whether different choices of PDSI spatial coverage change the five-year drought ranking.
-4. Use AQUASTAT and UN population data as supporting context without treating national trends as proof that drought caused particular changes in irrigation or migration.
+1. Examine regional temperature and potential evapotranspiration trends, taking seasonal variability into account.
+2. Test whether different choices of PDSI spatial coverage change the five-year drought ranking.
+3. Use AQUASTAT and UN population data as supporting context without treating national trends as proof that drought caused particular changes in irrigation or migration.
 
 For the final project, I want to bring these analyses together into a clear narrative that distinguishes severe climatic conditions from their possible social and agricultural consequences, while explaining what the data cannot establish.
 
