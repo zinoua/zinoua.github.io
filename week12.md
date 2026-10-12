@@ -264,8 +264,6 @@ First, **area equipped for irrigation does not represent actual water use**. Lan
 
 Second, **the reliability of individual observations varies**. Some values are estimated (E), others are imputed (I), and the original dataset also contains values flagged A. The graph distinguishes imputed values from the others, but circles should not automatically be interpreted as independently measured observations. The total irrigation-equipped area series, in particular, contains estimated values during the drought period.
 
-Third, the broader water-withdrawal data are less informative for annual comparisons. Agricultural water withdrawal remains unchanged at 14.67 billion m³/year across 2004–2010, but the repeated imputed values cannot be taken as evidence of stable actual withdrawals. Similarly, the nearly constant renewable-water-resource figures represent estimated long-term resource availability rather than observed annual drought conditions.
-
 Finally, the timing of the irrigation-area decline coincides with the drought, but this does not establish causation. Changes in infrastructure, water-management policies, economic conditions, and other agricultural factors could also contribute to the observed patterns.
 
 Overall, AQUASTAT provides evidence of a substantial decline in Syria's recorded irrigation-equipped area during the 2006–2010 drought, particularly for groundwater-equipped irrigation. It adds an important water-management dimension to the climate and agricultural analyses, while also demonstrating the limitations of using estimated national statistics to reconstruct annual drought impacts.
