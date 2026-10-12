@@ -134,7 +134,90 @@ The four crops also differ in their cultivation requirements. Barley and lentils
 
 Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
 
-## 7. Challenges and next steps
+## 7. Temperature and Potential Evapotranspiration: Comparing Two Severe Droughts
+
+My PDSI analysis found that the 2006–2010 drought was exceptionally severe, but not unprecedented within the regional instrumental record. An earlier episode around 1958–1963 recorded a slightly lower five-year mean PDSI, indicating more severe drought conditions according to that measure.
+
+However, similar PDSI values do not necessarily mean two droughts occurred under identical climatic conditions. I therefore used CRU TS regional temperature and potential evapotranspiration (PET) records to examine whether the modern drought occurred under different thermal and atmospheric evaporative-demand conditions.
+
+### Long-term temperature and PET trends
+
+![Regional temperature and PET in the Fertile Crescent, 1901–2024](/assets/cru_long_term.png)
+
+*Figure 5. Annual mean regional temperature (°C) and annual total potential evapotranspiration (mm/year) from 1901–2024. Dashed lines represent linear trends, while shaded intervals identify the two drought periods. The annual observations summarize calendar years, whereas the drought comparisons use exact 60-month intervals.*
+
+The temperature record shows a long-term warming trend of approximately **0.14°C per decade** between 1901 and 2024. Annual PET also increased, at approximately **5.61 mm/year per decade**. Both records exhibit considerable year-to-year variability, and the fitted lines describe overall trends rather than changes occurring uniformly throughout the period.
+
+The modern drought occurred within the warmer portion of the instrumental record. However, the figure also shows that several years after 2010 experienced similarly high or higher annual temperatures. Therefore, the historical unusualness of 2006–2010 needs to be assessed using comparable five-year periods rather than individual years.
+
+### Comparing the 1958–1963 and 2006–2010 droughts
+
+I compared the two droughts using equal 60-month windows: April 1958–March 1963 and January 2006–December 2010. I also calculated anomalies against a common 1961–1990 climatological reference period.
+
+| Measurement | 1958–1963 | 2006–2010 |
+|---|---:|---:|
+| Mean temperature | 20.32°C | 21.21°C |
+| Temperature anomaly | +0.37°C | +1.26°C |
+| Annual-equivalent PET | 1,795.02 mm | 1,826.01 mm |
+| PET anomaly | +1.80% | +3.56% |
+| Exceptionally warm months | 12 of 60 | 35 of 60 |
+| Exceptionally high-PET months | 13 of 60 | 21 of 60 |
+
+*Table 2. Temperature and PET anomalies are relative to 1961–1990. Exceptional months exceed the 90th percentile for their respective calendar month during that reference period.*
+
+The modern drought was **0.90°C warmer** than the earlier episode. Its annual-equivalent PET was also higher by approximately **31 mm/year**, representing a difference of **1.7%**.
+
+The temperature contrast is more pronounced than the PET contrast. This is important because higher temperatures do not necessarily produce an equivalent proportional increase in estimated PET, which depends on additional meteorological conditions.
+
+The frequency of exceptional months provides another perspective. During 2006–2010, 35 of 60 months exceeded the historical 90th-percentile temperature threshold, compared with 12 months during the earlier drought. Exceptionally high-PET months were also more frequent, increasing from 13 to 21.
+
+These results suggest that unusually warm conditions were more persistent during the modern drought, although the choice of climatological reference influences the exceptional-month counts.
+
+### How unusual were these conditions historically?
+
+I compared the 2006–2010 temperature and PET averages with **1,201 earlier overlapping 60-month windows**, covering five-year periods ending before January 2006.
+
+None of the earlier windows had an average temperature as high as 2006–2010. The warmest earlier window, March 1998–February 2003, averaged 21.11°C, compared with 21.21°C during the modern drought.
+
+PET was also near its historical maximum. Only one earlier window, February 1998–January 2003, had a higher annual-equivalent PET: 1,826.45 mm/year compared with 1,826.01 mm/year during 2006–2010.
+
+This places the modern drought among the warmest and highest-PET five-year periods recorded before 2006. However, the rolling windows overlap and cannot be interpreted as independent climate events. These rankings also exclude later periods, so they do not establish that 2006–2010 was the warmest interval in the complete record through 2024.
+
+### Seasonal differences between the droughts
+
+To investigate whether the differences were concentrated in particular seasons, I calculated monthly temperature and PET anomalies relative to the 1961–1990 average for each calendar month.
+
+![Monthly temperature and PET anomalies during the two droughts](/assets/cru_seasonal_anomalies.png)
+
+*Figure 6. Average monthly temperature and PET anomalies during April 1958–March 1963 and January 2006–December 2010, relative to the corresponding calendar-month averages for 1961–1990. Each bar represents the average of five observations of that calendar month.*
+
+The modern drought had higher temperature anomalies than the earlier drought in **10 of the 12 calendar months**, with January and December being the exceptions. Particularly large differences occurred in March, June, August, September, and October.
+
+This indicates that the warmer conditions during 2006–2010 were not restricted to summer but extended across much of the year.
+
+The PET pattern was less uniform. The modern drought had higher monthly PET anomalies in eight of the twelve calendar months, with especially noticeable differences in March and June. The earlier drought had higher PET anomalies in January, May, October, and December.
+
+This seasonal variation helps explain why the overall temperature difference between the two droughts was more pronounced than the PET difference.
+
+### Connecting climate conditions with agricultural changes
+
+The CRU results add context to the FAOSTAT analysis. Wheat, barley, and lentils all recorded their lowest drought-period yields in 2008, which also stands out as a particularly warm, high-PET year in the regional CRU graphs.
+
+This coincidence is worth investigating, but it does not establish that temperature or PET caused those agricultural declines. Crop yields also depend on precipitation timing, soil moisture, irrigation, agricultural management, and other environmental and economic factors.
+
+Furthermore, the climatic results represent averages across the Fertile Crescent, while FAOSTAT reports national agricultural statistics for Syria. The datasets therefore differ in their spatial coverage.
+
+### Interpretation and limitations
+
+Taken together, the PDSI and CRU analyses demonstrate an important distinction. The earlier 1958–1963 drought was slightly more severe according to regional five-year mean PDSI, but the 2006–2010 drought occurred under distinctly warmer conditions and somewhat higher estimated potential evapotranspiration.
+
+Several limitations remain. The 1961–1990 climatological baseline overlaps with the earlier drought and represents a retrospective reference rather than the climate immediately preceding that event. Historical temperature and PET estimates are also subject to uncertainties associated with observational coverage and gridded-data reconstruction.
+
+Finally, PET represents potential evaporative demand rather than actual evaporation or soil-water loss. Because PET estimates depend partly on temperature, the two variables are not fully independent indicators.
+
+Overall, these findings suggest that the 2006–2010 drought was not unprecedented in every measure of drought severity, but it occurred under climatic conditions that differed substantially from the earlier severe episode. This distinction is central to evaluating the historical unusualness of the modern drought.
+
+## 8. Challenges and next steps
 
 My remaining work is to investigate the wider impacts of the drought and strengthen the sensitivity checks on the climate results. I plan to:
 
