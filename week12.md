@@ -78,6 +78,64 @@ This is not necessarily a contradiction. The cave record reflects local environm
 
 Together, they suggest that the answer to whether the drought was “unprecedented” depends on **which indicator, region, and timescale** I use.
 
+
+## 6. Agricultural Responses to the Drought: FAOSTAT Analysis
+
+Having examined how unusual the 2006–2010 drought was in the climate records, I turned to its agricultural context. Using FAOSTAT data from 1961–2014, I investigated changes in the yields and total production of four major Syrian crops: wheat, barley, lentils, and seed cotton.
+
+I compared average yields during 2006–2010 with the preceding five years (2001–2005). I also examined the full historical record to see how drought-period harvests compared with earlier fluctuations. Because agricultural productivity has changed considerably over time, the recent five-year comparison is more informative than comparing absolute yields across the entire record.
+
+### Historical agricultural yields
+
+The first figure shows annual yields for all four crops from 1961 to 2014, with the drought period highlighted.
+
+![Historical Syrian crop yields, 1961–2014](/assets/fao_historical_yields.png)
+
+*Figure 3. Annual crop yields in Syria, measured in kg/ha. Each crop has its own vertical scale to make its historical fluctuations easier to examine.*
+
+The historical records show substantial fluctuations in productivity, particularly for barley and lentils. Wheat and seed cotton also display longer-term changes, making it difficult to judge the severity of the drought using absolute historical minima alone.
+
+### Comparing crops during 2006–2010
+
+To compare crops with different typical yields, I normalized each annual yield to its crop's 2001–2005 average, setting that baseline to 100. For example, a value of 60 indicates a yield 40% below the pre-drought average.
+
+![Normalized Syrian crop yields, 1996–2010](/assets/fao_normalized_yields.png)
+
+*Figure 4. Crop yields expressed as percentages of their respective 2001–2005 averages. The graph includes earlier years to provide context for the selected baseline.*
+
+The results reveal that the four crops did not respond uniformly during the drought.
+
+| Crop | Average yield change, 2006–2010 | Lowest-yield year | Lowest year vs. baseline | Production change |
+|---|---:|---:|---:|---:|
+| Wheat | −16.5% | 2008 | −46.0% | −24.3% |
+| Barley | +1.3% | 2008 | −66.8% | +8.2% |
+| Lentils | −31.9% | 2008 | −77.5% | −33.5% |
+| Seed cotton | −14.8% | 2010 | −33.4% | −31.1% |
+
+*Table 1. Changes are relative to the 2001–2005 average. Production refers to total national output rather than yield per hectare.*
+
+**Wheat and lentils experienced substantial declines.** Their average yields during the drought were 16.5% and 31.9% below the preceding five-year averages, respectively. Both reached their lowest drought-period yields in 2008. Lentils experienced the strongest sustained decline of the four crops, and their 2008 yield of 251.3 kg/ha was lower than any year between 1961 and 2005. The previous minimum was 257.5 kg/ha in 1973.
+
+**Barley presents a more complicated pattern.** Its yield in 2008 was 66.8% below the pre-drought average, yet its average across 2006–2010 was actually 1.3% higher. Stronger harvests in other years offset the severe decline in 2008. However, the result is highly sensitive to the chosen baseline. Barley yields in 2000 and 2001 were only 160.9 and 150.1 kg/ha, both lower than the 2008 yield of 182.2 kg/ha. Excluding 2001 from the baseline changes the estimated drought-period yield change from +1.3% to −14.3%. This illustrates how a five-year average can conceal severe annual fluctuations, particularly for highly variable crops.
+
+**Seed cotton followed a different trajectory.** Its 2008 yield was only 3.9% below the pre-drought average, while wheat, barley, and lentils experienced much larger declines that year. Cotton's lowest drought-period yield occurred later, in 2010, at 33.4% below the baseline. The different timing is interesting given cotton's predominantly irrigated cultivation, but the data cannot establish whether irrigation explains the pattern.
+
+### Yield, production, and harvested area
+
+Changes in total agricultural production did not always match changes in yield. This distinction is particularly apparent for cotton, whose average yield declined by 14.8% while national production declined by 31.1%.
+
+To investigate this difference, I estimated annual harvested area using total production divided by yield. Comparing the five-year averages, implied harvested area declined by approximately 18.8% for cotton and 10.3% for wheat. Barley's implied harvested area increased by about 8.0%, while lentils showed a smaller decrease of 1.9%.
+
+These calculations suggest that changes in harvested area accompanied some of the changes in national agricultural output. However, harvested area is not the same as irrigated area, and these statistics do not establish why the changes occurred.
+
+### Limitations and interpretation
+
+The findings are sensitive to the period chosen for comparison. Using the longer 1996–2005 baseline reduces the estimated yield decline for wheat from 16.5% to 5.3%, and for lentils from 31.9% to 18.8%. Barley's sensitivity to excluding 2001 further demonstrates that pre-drought conditions were not necessarily representative of a normal agricultural period.
+
+The four crops also differ in their cultivation requirements. Barley and lentils are generally more dependent on rainfall, wheat includes both rainfed and irrigated cultivation, and seed cotton is predominantly irrigated. These differences could help explain their contrasting trajectories, but the national FAOSTAT data do not directly separate rainfed and irrigated production.
+
+Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
+
 ## 6. Challenges and next steps
 
 My remaining work is to investigate the wider impacts of the drought and strengthen the sensitivity checks on the climate results. I plan to:
