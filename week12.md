@@ -32,6 +32,8 @@ Each point represents a five-year window containing at least three isotope measu
   title="Interactive Gejkar Cave five-year isotope comparison">
 </iframe>
 
+*Figure 1. Interactive Gejkar Cave δ¹⁸O comparison using non-overlapping five-year windows with at least three samples. Vertical ranges show the observed minimum and maximum, not confidence intervals.*
+
 The shaded areas distinguish a period without samples from a later period with measurements that are too sparse to produce five-year windows meeting the three-sample requirement.
 
 ## 3. What the Gejkar analysis reveals
@@ -48,11 +50,13 @@ I tested how the result changes when I require different minimum numbers of meas
 | 3 | 93 | 0 |
 | 4 | 46 | 0 |
 
+*Table 1. Sensitivity of the Gejkar comparison to the minimum number of measurements required in each five-year window. Historical windows exclude 2006–2010.*
+
 The modern interval remains the highest under all three thresholds. This makes the result less dependent on my choice of minimum sample count, but the number of historical windows available for comparison changes considerably. These five-year windows are also non-overlapping, so their placement may influence which historical events are captured.
 
 **This does not establish that the 2006–2010 drought was unprecedented across the entire historical record.** Gejkar is a cave in northern Iraq rather than a direct rainfall record for Syria, and gaps, irregular sampling, and age uncertainty limit comparisons of short events.
 
-## 4. PDSI: Comparing five-year drought severity
+## 4. PDSI: comparing five-year drought severity
 
 My earlier PDSI plot showed monthly drought conditions across the Fertile Crescent and identified **May 2008** as the driest individual month in my regional series, at approximately **−4.96**. But one extreme month cannot tell us whether an entire five-year drought was unprecedented.
 
@@ -60,7 +64,7 @@ To compare periods of equal duration, I calculated a **60-month rolling mean** o
 
 ![Five-year rolling average PDSI for the Fertile Crescent, highlighting the 1958–1963 and 2006–2010 drought intervals](/assets/pdsi_5yr.png)
 
-*Figure: Regional PDSI averaged over rolling 60-month windows. Each point is plotted at the end of its five-year window. The highlighted intervals identify the modern drought and the driest earlier comparison period.*
+*Figure 2. Regional PDSI averaged over rolling 60-month windows. Each point is plotted at the end of its five-year window. The highlighted intervals identify the modern drought and the driest earlier comparison period.*
 
 The **2006–2010 mean PDSI was −1.416**. Of the **1,501 earlier rolling five-year windows**, approximately **99.5% had higher (wetter) mean PDSI**. Only eight earlier windows were as dry or drier.
 
@@ -78,8 +82,7 @@ This is not necessarily a contradiction. The cave record reflects local environm
 
 Together, they suggest that the answer to whether the drought was “unprecedented” depends on **which indicator, region, and timescale** I use.
 
-
-## 6. Agricultural Responses to the Drought: FAOSTAT Analysis
+## 6. Agricultural responses to the drought: FAOSTAT analysis
 
 Having examined how unusual the 2006–2010 drought was in the climate records, I turned to its agricultural context. Using FAOSTAT data from 1961–2014, I investigated changes in the yields and total production of four major Syrian crops: wheat, barley, lentils, and seed cotton.
 
@@ -112,7 +115,7 @@ The results reveal that the four crops did not respond uniformly during the drou
 | Lentils | −31.9% | 2008 | −77.5% | −33.5% |
 | Seed cotton | −14.8% | 2010 | −33.4% | −31.1% |
 
-*Table 1. Changes are relative to the 2001–2005 average. Production refers to total national output rather than yield per hectare.*
+*Table 2. Changes are relative to the 2001–2005 average. Production refers to total national output rather than yield per hectare.*
 
 **Wheat and lentils experienced substantial declines.** Their average yields during the drought were 16.5% and 31.9% below the preceding five-year averages, respectively. Both reached their lowest drought-period yields in 2008. Lentils experienced the strongest sustained decline of the four crops, and their 2008 yield of 251.3 kg/ha was lower than any year between 1961 and 2005. The previous minimum was 257.5 kg/ha in 1973.
 
@@ -134,7 +137,7 @@ The four crops also differ in their cultivation requirements. Barley and lentils
 
 Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
 
-## 7. Temperature and Potential Evapotranspiration: Comparing Two Severe Droughts
+## 7. Temperature and potential evapotranspiration: comparing two severe droughts
 
 My PDSI analysis found that the 2006–2010 drought was exceptionally severe, but not unprecedented within the regional instrumental record. An earlier episode around 1958–1963 recorded a slightly lower five-year mean PDSI, indicating more severe drought conditions according to that measure.
 
@@ -163,7 +166,7 @@ I compared the two droughts using equal 60-month windows: April 1958–March 196
 | Exceptionally warm months | 12 of 60 | 35 of 60 |
 | Exceptionally high-PET months | 13 of 60 | 21 of 60 |
 
-*Table 2. Temperature and PET anomalies are relative to 1961–1990. Exceptional months exceed the 90th percentile for their respective calendar month during that reference period.*
+*Table 3. Temperature and PET anomalies are relative to 1961–1990. Exceptional months exceed the 90th percentile for their respective calendar month during that reference period.*
 
 The modern drought was **0.90°C warmer** than the earlier episode. Its annual-equivalent PET was also higher by approximately **31 mm/year**, representing a difference of **1.7%**.
 
@@ -207,7 +210,7 @@ This coincidence is worth investigating, but it does not establish that temperat
 
 Furthermore, the climatic results represent averages across the Fertile Crescent, while FAOSTAT reports national agricultural statistics for Syria. The datasets therefore differ in their spatial coverage.
 
-### Interpretation and limitations
+### Limitations and interpretation
 
 Taken together, the PDSI and CRU analyses demonstrate an important distinction. The earlier 1958–1963 drought was slightly more severe according to regional five-year mean PDSI, but the 2006–2010 drought occurred under distinctly warmer conditions and somewhat higher estimated potential evapotranspiration.
 
@@ -217,7 +220,7 @@ Finally, PET represents potential evaporative demand rather than actual evaporat
 
 Overall, these findings suggest that the 2006–2010 drought was not unprecedented in every measure of drought severity, but it occurred under climatic conditions that differed substantially from the earlier severe episode. This distinction is central to evaluating the historical unusualness of the modern drought.
 
-## 8. Irrigation and Water Resources in Syria: AQUASTAT Analysis
+## 8. Irrigation and water resources in Syria: AQUASTAT analysis
 
 Having examined the climatic conditions and agricultural changes associated with the 2006–2010 drought, I turned to FAO's AQUASTAT database to investigate Syria's irrigation infrastructure and water-resource context.
 
@@ -240,7 +243,7 @@ The decline was more pronounced for groundwater-equipped irrigation area than fo
 | Groundwater-equipped area (thousand ha) | 864.7 | 851.1 | 656.2 | 726.8 |
 | Total equipped area (thousand ha) | 1,438.7 | 1,401.8 | 1,238.3 | 1,341.0 |
 
-*Table 3. Selected AQUASTAT irrigation-area values before and during the drought.*
+*Table 4. Selected AQUASTAT irrigation-area values before and during the drought.*
 
 Groundwater-equipped irrigation area declined from **864.7 thousand hectares in 2004 to 656.2 thousand hectares in 2009**, a reduction of approximately **24.1%**. Looking specifically at 2006–2009, the decline was approximately **22.9%**. Although the area increased to 726.8 thousand hectares in 2010, it remained substantially below the 2004 level.
 
@@ -256,7 +259,7 @@ These observations suggest that changes in irrigation infrastructure and agricul
 
 Furthermore, the AQUASTAT figures represent national irrigation infrastructure, whereas the FAOSTAT observations cover specific crops. The available data cannot establish that reductions in irrigation-equipped area directly caused the declines in crop yields or production.
 
-### Data limitations and interpretation
+### Limitations and interpretation
 
 The AQUASTAT analysis has several limitations that affect how its results should be interpreted.
 
@@ -268,8 +271,7 @@ Finally, the timing of the irrigation-area decline coincides with the drought, b
 
 Overall, AQUASTAT provides evidence of a substantial decline in Syria's recorded irrigation-equipped area during the 2006–2010 drought, particularly for groundwater-equipped irrigation. It adds an important water-management dimension to the climate and agricultural analyses, while also demonstrating the limitations of using estimated national statistics to reconstruct annual drought impacts.
 
-
-## 9. Population Growth, Urbanization, and Rural Displacement
+## 9. Population growth, urbanization, and rural displacement
 
 Having examined the climatic, agricultural, and irrigation-related dimensions of the drought, I turned to its demographic context. The 2006–2010 drought was not simply an environmental event. For many rural Syrian communities dependent on farming and livestock, declining agricultural productivity and water shortages threatened their livelihoods and encouraged families to seek work and opportunities elsewhere.
 
@@ -307,7 +309,7 @@ The annual growth data reveal that the increase was not evenly distributed acros
 | 2001–2005 | 3.02% |
 | 2006–2010 | 4.48% |
 
-*Table 4. Mean annual logarithmic growth rates calculated from the UN cities-and-towns population estimates.*
+*Table 5. Mean annual logarithmic growth rates calculated from the UN cities-and-towns population estimates.*
 
 Average annual growth increased by **1.46 percentage points** between the preceding five-year period and the drought interval.
 
@@ -353,9 +355,6 @@ Second, the annual growth rates calculated from consecutive population estimates
 
 Third, urban population growth is not equivalent to rural-to-urban migration. Population growth can reflect births, deaths, international migration, internal movement, and settlement reclassification. The UN series cannot isolate these contributions.
 
-Finally, while historical reporting and field research document migration associated with drought-related livelihood pressures, researchers disagree about the number of people involved and the relative importance of drought compared with economic and political factors.
-
 Overall, the UN data show a marked acceleration in the growth of Syria's cities-and-towns population during the drought period, particularly around 2006–2007. When considered alongside historical accounts and research on rural displacement, these findings provide an important demographic dimension to the drought.
 
 The evidence suggests that the consequences of the drought cannot be understood through climate records alone. Agricultural vulnerability, water-management practices, economic conditions, and the ability of rural communities to adapt all shaped how people experienced and responded to the crisis.
-
