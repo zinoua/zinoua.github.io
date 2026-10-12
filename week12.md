@@ -267,3 +267,95 @@ Second, **the reliability of individual observations varies**. Some values are e
 Finally, the timing of the irrigation-area decline coincides with the drought, but this does not establish causation. Changes in infrastructure, water-management policies, economic conditions, and other agricultural factors could also contribute to the observed patterns.
 
 Overall, AQUASTAT provides evidence of a substantial decline in Syria's recorded irrigation-equipped area during the 2006–2010 drought, particularly for groundwater-equipped irrigation. It adds an important water-management dimension to the climate and agricultural analyses, while also demonstrating the limitations of using estimated national statistics to reconstruct annual drought impacts.
+
+
+## 9. Population Growth, Urbanization, and Rural Displacement
+
+Having examined the climatic, agricultural, and irrigation-related dimensions of the drought, I turned to its demographic context. The 2006–2010 drought was not simply an environmental event. For many rural Syrian communities dependent on farming and livestock, declining agricultural productivity and water shortages threatened their livelihoods and encouraged families to seek work and opportunities elsewhere.
+
+To investigate population changes during this period, I used estimates from the UN Population Data Portal covering 1950–2014. The dataset includes the population living in cities and towns, its share of Syria's total population, and annual population growth rates.
+
+### Historical population and urbanization trends
+
+![Syria population in cities and towns, 1950–2014](/assets/un_urban_population.png)
+
+*Figure 8. Estimated population living in Syria's cities and towns (millions) and its percentage of the national population from 1950–2014. The shaded periods distinguish the 2006–2010 drought from the subsequent conflict years. These are UN model-based estimates using the degree-of-urbanization classification.*
+
+The first figure shows a long-term increase in both the number and proportion of people living in cities and towns. This trend began decades before the drought, meaning that urbanization was already underway.
+
+However, the period surrounding the drought shows a noticeable acceleration in population growth.
+
+Between **2005 and 2010**, the estimated population in cities and towns increased from **14.47 million to 18.10 million**, a rise of approximately **25.1%**, or 3.63 million people.
+
+The share of the national population living in cities and towns also increased from **76.89% to 80.49%**, an increase of approximately **3.59 percentage points**.
+
+These changes indicate that the cities-and-towns population grew faster than the country's overall population during this period. However, the figures do not establish how much of that growth resulted from migration rather than natural population increase or changes in settlement classification.
+
+### Did population growth accelerate during the drought?
+
+To examine the timing more closely, I calculated annual logarithmic population growth rates from consecutive UN population estimates.
+
+![Annual population growth in Syria's cities and towns, 1990–2014](/assets/un_population_growth.png)
+
+*Figure 9. Annual population growth in Syria's cities and towns, calculated from consecutive UN population estimates. These rates are not direct measurements of migration. The drought period is highlighted separately from the subsequent conflict years.*
+
+The annual growth data reveal that the increase was not evenly distributed across the drought period.
+
+| Period | Mean annual population growth |
+|---|---:|
+| 1996–2005 | 3.21% |
+| 2001–2005 | 3.02% |
+| 2006–2010 | 4.48% |
+
+*Table 4. Mean annual logarithmic growth rates calculated from the UN cities-and-towns population estimates.*
+
+Average annual growth increased by **1.46 percentage points** between the preceding five-year period and the drought interval.
+
+The increase was particularly pronounced in 2006 and 2007, when calculated annual growth reached approximately **5.35% and 7.14%**, respectively. Growth then slowed to 4.44% in 2008, 2.40% in 2009, and 3.05% in 2010.
+
+This suggests that the population-growth acceleration was concentrated in the earlier years of the drought rather than sustained at the same rate throughout 2006–2010.
+
+After 2011, the estimated population in cities and towns began declining, reaching approximately 15.84 million by 2014. These later changes occurred during the Syrian civil war and must be distinguished from the pre-conflict drought period.
+
+### Connecting the population data with documented rural displacement
+
+The UN population estimates provide demographic context, but there is also direct historical evidence that drought-related agricultural hardship encouraged migration from Syria's countryside.
+
+Contemporary reporting documented families leaving agricultural communities in eastern and northeastern Syria for urban areas, including Aleppo, Damascus, and Deir ez-Zor, in search of work. A February 2010 [IRIN report](https://www.thenewhumanitarian.org/report/88139/syria-over-million-people-affected-drought), produced while IRIN was part of the UN humanitarian reporting system, described substantial displacement associated with crop failures, livestock losses, and deteriorating rural livelihoods.
+
+[Kelley et al. (2015)](https://doi.org/10.1073/pnas.1421533112), in *Climate Change in the Fertile Crescent and Implications of the Recent Syrian Drought*, also described large-scale movement from rural agricultural areas toward urban centers, citing estimates of as many as **1.5 million displaced people**.
+
+However, the exact scale and causes of drought-related migration remain debated. [Selby et al. (2017)](https://doi.org/10.1016/j.polgeo.2017.05.007) challenged the reliability of widely repeated displacement estimates and questioned claims directly linking drought-related migration to the outbreak of civil war.
+
+More recent research by [Dinc, Eklund, and colleagues (2023)](https://doi.org/10.1080/17565529.2023.2223600), involving surveys and interviews with former Syrian farmers, provides a more detailed perspective on how households responded to drought and water scarcity. Their findings document adaptation strategies, including temporary labor migration, while also questioning some broader claims about the scale of permanent land abandonment.
+
+These studies demonstrate why it is important to distinguish the existence of drought-related migration from uncertainty about its precise scale, duration, and contribution to later political developments.
+
+### Connecting population changes with agricultural and water stress
+
+The timing of the population changes is particularly interesting when considered alongside the other datasets.
+
+FAOSTAT showed substantial yield declines for wheat and lentils during 2006–2010, with especially severe losses in 2008. AQUASTAT recorded declining irrigation-equipped area over much of the same period, particularly for groundwater-equipped irrigation.
+
+Meanwhile, our UN population analysis identifies unusually rapid growth in cities and towns during 2006–2007.
+
+These findings are consistent with a period of mounting pressure on rural livelihoods and changing settlement patterns. However, the strongest measured population-growth acceleration occurred before the worst agricultural year in our FAOSTAT dataset. This does not rule out drought-related migration: rural households may have faced water shortages, livestock losses, and declining incomes before the most severe national crop-yield declines became visible.
+
+At the same time, Syria's demographic changes were shaped by other factors, including long-standing urbanization, economic conditions, government agricultural policies, natural population growth, and the arrival of refugees from Iraq. It would therefore be misleading to attribute the entire increase in the cities-and-towns population to drought.
+
+### Limitations and interpretation
+
+There are several important limitations to this analysis.
+
+First, the UN data are **model-based population estimates**, not direct annual counts of people moving from rural communities to cities. The standardized *Cities and towns* classification also includes towns and semi-dense settlements and should not automatically be equated with Syria's nationally defined urban population.
+
+Second, the annual growth rates calculated from consecutive population estimates differ from the UN's separately reported growth-rate indicator in several years. I used the rates calculated from population counts to maintain consistency with the plotted population series, but the differences remain an unresolved methodological limitation.
+
+Third, urban population growth is not equivalent to rural-to-urban migration. Population growth can reflect births, deaths, international migration, internal movement, and settlement reclassification. The UN series cannot isolate these contributions.
+
+Finally, while historical reporting and field research document migration associated with drought-related livelihood pressures, researchers disagree about the number of people involved and the relative importance of drought compared with economic and political factors.
+
+Overall, the UN data show a marked acceleration in the growth of Syria's cities-and-towns population during the drought period, particularly around 2006–2007. When considered alongside historical accounts and research on rural displacement, these findings provide an important demographic dimension to the drought.
+
+The evidence suggests that the consequences of the drought cannot be understood through climate records alone. Agricultural vulnerability, water-management practices, economic conditions, and the ability of rural communities to adapt all shaped how people experienced and responded to the crisis.
+
