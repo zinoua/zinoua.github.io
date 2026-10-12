@@ -130,9 +130,7 @@ These calculations suggest that changes in harvested area accompanied some of th
 
 ### Limitations and interpretation
 
-The findings are sensitive to the period chosen for comparison. Using the longer 1996–2005 baseline reduces the estimated yield decline for wheat from 16.5% to 5.3%, and for lentils from 31.9% to 18.8%. Barley's sensitivity to excluding 2001 further demonstrates that pre-drought conditions were not necessarily representative of a normal agricultural period.
-
-The four crops also differ in their cultivation requirements. Barley and lentils are generally more dependent on rainfall, wheat includes both rainfed and irrigated cultivation, and seed cotton is predominantly irrigated. These differences could help explain their contrasting trajectories, but the national FAOSTAT data do not directly separate rainfed and irrigated production.
+The four crops also differ in their cultivation requirements. Barley and lentils are dependent on rainfall, while wheat is largely rainfed, some of it is irrigated, and seed cotton is predominantly irrigated. These differences could help explain their contrasting trajectories, but the national FAOSTAT data do not directly separate rainfed and irrigated production.
 
 Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
 
