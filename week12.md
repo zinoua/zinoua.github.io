@@ -319,19 +319,7 @@ This suggests that the population-growth acceleration was concentrated in the ea
 
 After 2011, the estimated population in cities and towns began declining, reaching approximately 15.84 million by 2014. These later changes occurred during the Syrian civil war and must be distinguished from the pre-conflict drought period.
 
-### Connecting the population data with documented rural displacement
-
-The UN population estimates provide demographic context, but there is also direct historical evidence that drought-related agricultural hardship encouraged migration from Syria's countryside.
-
-Contemporary reporting documented families leaving agricultural communities in eastern and northeastern Syria for urban areas, including Aleppo, Damascus, and Deir ez-Zor, in search of work. A February 2010 [IRIN report](https://www.thenewhumanitarian.org/report/88139/syria-over-million-people-affected-drought), produced while IRIN was part of the UN humanitarian reporting system, described substantial displacement associated with crop failures, livestock losses, and deteriorating rural livelihoods.
-
-[Kelley et al. (2015)](https://doi.org/10.1073/pnas.1421533112), in *Climate Change in the Fertile Crescent and Implications of the Recent Syrian Drought*, also described large-scale movement from rural agricultural areas toward urban centers, citing estimates of as many as **1.5 million displaced people**.
-
-However, the exact scale and causes of drought-related migration remain debated. [Selby et al. (2017)](https://doi.org/10.1016/j.polgeo.2017.05.007) challenged the reliability of widely repeated displacement estimates and questioned claims directly linking drought-related migration to the outbreak of civil war.
-
-More recent research by [Dinc, Eklund, and colleagues (2023)](https://doi.org/10.1080/17565529.2023.2223600), involving surveys and interviews with former Syrian farmers, provides a more detailed perspective on how households responded to drought and water scarcity. Their findings document adaptation strategies, including temporary labor migration, while also questioning some broader claims about the scale of permanent land abandonment.
-
-These studies demonstrate why it is important to distinguish the existence of drought-related migration from uncertainty about its precise scale, duration, and contribution to later political developments.
+The UN population estimates provide demographic context, and there are also direct historical accounts and studies that highlight how drought-related agricultural hardship encouraged migration from Syria's countryside.
 
 ### Connecting population changes with agricultural and water stress
 
