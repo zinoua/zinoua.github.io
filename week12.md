@@ -136,7 +136,7 @@ The four crops also differ in their cultivation requirements. Barley and lentils
 
 Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
 
-## 6. Challenges and next steps
+## 7. Challenges and next steps
 
 My remaining work is to investigate the wider impacts of the drought and strengthen the sensitivity checks on the climate results. I plan to:
 
