@@ -217,18 +217,55 @@ Finally, PET represents potential evaporative demand rather than actual evaporat
 
 Overall, these findings suggest that the 2006–2010 drought was not unprecedented in every measure of drought severity, but it occurred under climatic conditions that differed substantially from the earlier severe episode. This distinction is central to evaluating the historical unusualness of the modern drought.
 
-## 8. Challenges and next steps
+## 8. Irrigation and Water Resources in Syria: AQUASTAT Analysis
 
-My remaining work is to investigate the wider impacts of the drought and strengthen the sensitivity checks on the climate results. I plan to:
+Having examined the climatic conditions and agricultural changes associated with the 2006–2010 drought, I turned to FAO's AQUASTAT database to investigate Syria's irrigation infrastructure and water-resource context.
 
-1. Examine regional temperature and potential evapotranspiration trends, taking seasonal variability into account.
-2. Test whether different choices of PDSI spatial coverage change the five-year drought ranking.
-3. Use AQUASTAT and UN population data as supporting context without treating national trends as proof that drought caused particular changes in irrigation or migration.
+The dataset contains ten water-related variables, including agricultural and municipal water withdrawals, renewable water resources, water stress, and land equipped for irrigation. However, my initial inspection revealed important limitations. Many observations were estimated or imputed, and several variables repeated identical values across consecutive years. Agricultural water withdrawal, for example, remained at 14.67 billion m³/year throughout 2004–2010, but every observation was flagged as imputed. These values cannot reliably demonstrate whether agricultural water withdrawals changed during the drought.
 
-For the final project, I want to bring these analyses together into a clear narrative that distinguishes severe climatic conditions from their possible social and agricultural consequences, while explaining what the data cannot establish.
+I therefore focused on two variables that provided more informative year-to-year comparisons: **area equipped for irrigation by groundwater** and **total area equipped for irrigation**.
 
-## Data and methods
+### Changes in irrigation-equipped area
 
-The climate analyses use the [NOAA PDSI dataset](https://psl.noaa.gov/data/gridded/data.pdsi.html) and the [NOAA Gejkar Cave paleoclimate record](https://www.ncei.noaa.gov/access/paleo-search/study/40686). More details about the other datasets and cleaning methods are documented in my [Week 11 update](/week11.html).
+![Area equipped for irrigation in Syria, 1993–2014](/assets/aquastat_irrigation.png)
 
-I used AI assistance to help write, troubleshoot, and refine Python code and visualization methods, and reviewed the outputs against my data and research questions.
+*Figure 7. Changes in groundwater-equipped and total irrigation-equipped area in Syria from 1993–2014, measured in thousand hectares. Circles represent values not flagged as imputed (A/E), including estimates, while X markers identify imputed values (I). The shaded region marks the 2006–2010 drought.*
+
+Both series increased throughout the 1990s and early 2000s, reaching their highest values around 2004. They subsequently declined, with particularly sharp decreases during the drought period, before partially recovering in 2010.
+
+The decline was more pronounced for groundwater-equipped irrigation area than for total equipped irrigation area.
+
+| Measurement | 2004 | 2006 | 2009 | 2010 |
+|---|---:|---:|---:|---:|
+| Groundwater-equipped area (thousand ha) | 864.7 | 851.1 | 656.2 | 726.8 |
+| Total equipped area (thousand ha) | 1,438.7 | 1,401.8 | 1,238.3 | 1,341.0 |
+
+*Table 3. Selected AQUASTAT irrigation-area values before and during the drought.*
+
+Groundwater-equipped irrigation area declined from **864.7 thousand hectares in 2004 to 656.2 thousand hectares in 2009**, a reduction of approximately **24.1%**. Looking specifically at 2006–2009, the decline was approximately **22.9%**. Although the area increased to 726.8 thousand hectares in 2010, it remained substantially below the 2004 level.
+
+Total irrigation-equipped area followed a similar, though less severe, trajectory. It declined from 1,438.7 thousand hectares in 2004 to 1,238.3 thousand hectares in 2009, a decrease of approximately **13.9%**. Between 2006 and 2009, the decline was **11.7%**. By 2010, it had partially recovered to 1,341.0 thousand hectares.
+
+These results indicate that the AQUASTAT series recorded a contraction in irrigation-equipped area during the drought, especially in the area equipped to use groundwater. The different magnitudes of decline raise questions about the vulnerability of groundwater-based irrigation and the factors influencing changes in irrigation infrastructure.
+
+### Connecting irrigation with agricultural productivity
+
+The AQUASTAT findings provide useful context for the FAOSTAT analysis. During the same drought interval, average yields declined for wheat, lentils, and seed cotton, while national production also fell for these crops. FAOSTAT additionally indicated a reduction in implied harvested area of approximately 18.8% for cotton and 10.3% for wheat when comparing 2006–2010 with 2001–2005.
+
+These observations suggest that changes in irrigation infrastructure and agricultural land use are worth investigating together. However, the two datasets measure different things. AQUASTAT reports the area equipped for irrigation, while the FAOSTAT calculations estimate harvested area from crop production and yield. Neither establishes how much irrigation water was actually available to individual farms.
+
+Furthermore, the AQUASTAT figures represent national irrigation infrastructure, whereas the FAOSTAT observations cover specific crops. The available data cannot establish that reductions in irrigation-equipped area directly caused the declines in crop yields or production.
+
+### Data limitations and interpretation
+
+The AQUASTAT analysis has several limitations that affect how its results should be interpreted.
+
+First, **area equipped for irrigation does not represent actual water use**. Land may be equipped for irrigation without being irrigated in a particular year. Likewise, changes in equipped area do not directly measure groundwater extraction, falling water tables, or water shortages.
+
+Second, **the reliability of individual observations varies**. Some values are estimated (E), others are imputed (I), and the original dataset also contains values flagged A. The graph distinguishes imputed values from the others, but circles should not automatically be interpreted as independently measured observations. The total irrigation-equipped area series, in particular, contains estimated values during the drought period.
+
+Third, the broader water-withdrawal data are less informative for annual comparisons. Agricultural water withdrawal remains unchanged at 14.67 billion m³/year across 2004–2010, but the repeated imputed values cannot be taken as evidence of stable actual withdrawals. Similarly, the nearly constant renewable-water-resource figures represent estimated long-term resource availability rather than observed annual drought conditions.
+
+Finally, the timing of the irrigation-area decline coincides with the drought, but this does not establish causation. Changes in infrastructure, water-management policies, economic conditions, and other agricultural factors could also contribute to the observed patterns.
+
+Overall, AQUASTAT provides evidence of a substantial decline in Syria's recorded irrigation-equipped area during the 2006–2010 drought, particularly for groundwater-equipped irrigation. It adds an important water-management dimension to the climate and agricultural analyses, while also demonstrating the limitations of using estimated national statistics to reconstruct annual drought impacts.
