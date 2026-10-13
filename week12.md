@@ -34,7 +34,7 @@ Each point represents a five-year window containing at least three isotope measu
 
 *Figure 1. Interactive Gejkar Cave δ¹⁸O comparison using non-overlapping five-year windows with at least three samples. Vertical ranges show the observed minimum and maximum, not confidence intervals.*
 
-The shaded areas distinguish a period without samples from a later period with measurements that are too sparse to produce five-year windows meeting the three-sample requirement.
+However, the historical coverage is uneven. There are no cave measurements between approximately 351 and 933 CE. Between about 933 and 1896 CE, measurements exist, but sampling is sparse; only one five-year interval meets my main three-sample requirement.
 
 ## 3. What the Gejkar analysis reveals
 
@@ -72,7 +72,7 @@ Those eight windows were not eight separate drought events. They overlap heavily
 
 This means that **2006–2010 was exceptionally dry in the instrumental regional record, but not the driest five-year interval** under this method. Because the rolling windows overlap, their count should not be treated as a count of independent drought events.
 
-There are also spatial limitations. PDSI is available on a coarse 2.5° grid, and I included all grid cells touched by my Fertile Crescent polygon. The number of available regional cells also changes during the early part of the record. I still need to test how sensitive the historical comparison is to these choices before drawing a final conclusion.
+There are also spatial limitations. PDSI is available on a coarse 2.5° grid, and I included all grid cells touched by my Fertile Crescent polygon. The number of available regional cells also changes during the early part of the record. As a coverage diagnostic, May 2008 remained the driest individual month when I restricted the comparison to months with at least 75% of the maximum grid-cell coverage. The earlier five-year windows that were as dry or drier than 2006–2010 all occur around 1958–1963, well after the period of thinnest early coverage.
 
 ## 5. Comparing the two climate records
 
@@ -102,7 +102,7 @@ The historical records show substantial fluctuations in productivity, particular
 
 To compare crops with different typical yields, I normalized each annual yield to its crop's 2001–2005 average, setting that baseline to 100. For example, a value of 60 indicates a yield 40% below the pre-drought average.
 
-![Normalized Syrian crop yields, 1996–2010](/assets/fao_normalized_yields.png)
+![Normalized Syrian crop yields, 1996–2014](/assets/fao_normalized_yields.png)
 
 *Figure 4. Crop yields expressed as percentages of their respective 2001–2005 averages. The graph includes earlier years to provide context for the selected baseline.*
 
@@ -117,9 +117,9 @@ The results reveal that the four crops did not respond uniformly during the drou
 
 *Table 2. Changes are relative to the 2001–2005 average. Production refers to total national output rather than yield per hectare.*
 
-**Wheat and lentils experienced substantial declines.** Their average yields during the drought were 16.5% and 31.9% below the preceding five-year averages, respectively. Both reached their lowest drought-period yields in 2008. Lentils experienced the strongest sustained decline of the four crops, and their 2008 yield of 251.3 kg/ha was lower than any year between 1961 and 2005. The previous minimum was 257.5 kg/ha in 1973.
+**Wheat and lentils experienced substantial declines.** Their average yields during the drought were 16.5% and 31.9% below the preceding five-year averages, respectively. Both reached their lowest drought-period yields in 2008. Lentils experienced the largest average yield decline of the four crops, and their 2008 yield of 251.3 kg/ha was lower than any year between 1961 and 2005. The previous minimum was 257.5 kg/ha in 1973.
 
-**Barley presents a more complicated pattern.** Its yield in 2008 was 66.8% below the pre-drought average, yet its average across 2006–2010 was actually 1.3% higher. Stronger harvests in other years offset the severe decline in 2008. However, the result is highly sensitive to the chosen baseline. Barley yields in 2000 and 2001 were only 160.9 and 150.1 kg/ha, both lower than the 2008 yield of 182.2 kg/ha. Excluding 2001 from the baseline changes the estimated drought-period yield change from +1.3% to −14.3%. This illustrates how a five-year average can conceal severe annual fluctuations, particularly for highly variable crops.
+**Barley presents a more complicated pattern.** Its yield in 2008 was 66.8% below the 2001–2005 average, yet its average across 2006–2010 was actually 1.3% higher. Using the longer 1996–2005 baseline produces a similar result, with drought-period yields about 1.8% higher. This shows how a five-year average can conceal severe annual fluctuations, where the very poor 2008 harvest was offset by stronger barley yields in other drought years.
 
 **Seed cotton followed a different trajectory.** Its 2008 yield was only 3.9% below the pre-drought average, while wheat, barley, and lentils experienced much larger declines that year. Cotton's lowest drought-period yield occurred later, in 2010, at 33.4% below the baseline. The different timing is interesting given cotton's predominantly irrigated cultivation, but the data cannot establish whether irrigation explains the pattern.
 
