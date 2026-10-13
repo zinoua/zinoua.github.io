@@ -16,13 +16,15 @@ permalink: /week12.html
 
 After spending Week 11 obtaining and cleaning my datasets, I have shifted toward comparing drought conditions across different timescales and visualizing the results. My main challenge is finding fair ways to compare a five-year drought against records with very different sampling frequencies and geographical coverage.
 
-This week, I developed an interactive Plotly visualization for the Gejkar Cave isotope record and expanded my PDSI analysis from individual months to rolling five-year averages. Both analyses investigate the same drought, but they use different measures of climate and cover different historical periods.
+This update first examines drought severity using Gejkar Cave isotopes and regional PDSI, then compares the temperature and potential evapotranspiration conditions of two severe drought episodes using CRU data. Finally, I examine Syrian agricultural yields, irrigation-equipped area, and population changes to place these climate findings in a broader human context. The different datasets provide complementary evidence, but they cannot by themselves establish that drought caused the observed agricultural or demographic changes.
 
 ## 2. Interactive visualization: Gejkar Cave
 
 The interactive figure below shows mean oxygen-isotope values (δ¹⁸O) for five-year windows in the Gejkar Cave record from northern Iraq. Higher δ¹⁸O values are generally associated with drier conditions at this cave, although the isotope signal is also influenced by factors such as temperature, moisture sources, and cave hydrology.
 
 Each point represents a five-year window containing at least three isotope measurements. The vertical bars show the observed minimum and maximum within that window; they are **not confidence intervals**. The 2006–2010 interval is highlighted in red. Hovering over a point shows its dates, sample count, and isotope measurements.
+
+I also examined the Soreq and Peqiin cave records for longer-term context, but neither supports a direct five-year comparison with 2006–2010: Soreq ends before that interval, and the Peqiin samples are from the Pleistocene. Because δ¹⁸O values are influenced by cave-specific conditions, their absolute values are not directly comparable with Gejkar's. The five-year isotope comparison therefore uses Gejkar alone.
 
 <iframe
   src="/assets/gejkar_5yr.html"
@@ -72,72 +74,17 @@ This means that **2006–2010 was exceptionally dry in the instrumental regional
 
 There are also spatial limitations. PDSI is available on a coarse 2.5° grid, and I included all grid cells touched by my Fertile Crescent polygon. The number of available regional cells changes during the earlier part of the record. As a coverage diagnostic, May 2008 remained the driest individual month when restricting the comparison to months with at least 75% of the maximum grid-cell coverage. This check applies to individual monthly extremes rather than the complete five-year ranking. However, the earlier five-year windows identified as equally dry or drier than 2006–2010 all fall around 1958–1963, well after the period of thinnest early coverage.
 
-## 5. Comparing the two climate records
+## 5. What Gejkar and PDSI can tell us together
 
 The Gejkar and PDSI results offer different perspectives. The 2006–2010 isotope mean is the highest among qualifying Gejkar windows, while the regional PDSI record includes an earlier five-year interval around 1958–1963 that was drier by its index.
 
-This is not necessarily a contradiction. The cave record reflects local environmental and hydrological processes, whereas regional PDSI estimates drought conditions across a much larger area. Their time coverage, sampling frequency, and uncertainties are also different. I cannot directly convert Gejkar δ18O values into PDSI values or assume that they describe identical drought conditions.
+This is not necessarily a contradiction. The cave record reflects local environmental and hydrological processes, whereas regional PDSI estimates drought conditions across a much larger area. Their time coverage, sampling frequency, and uncertainties are also different. I cannot directly convert Gejkar δ¹⁸O values into PDSI values or assume that they describe identical drought conditions.
 
 Although both analyses use five-year periods, they construct them differently. Gejkar measurements are irregularly spaced, so I use non-overlapping five-year bins with a minimum sample requirement. PDSI provides monthly observations, allowing me to calculate rolling 60-month averages. The resulting numbers of historical windows are therefore not directly comparable, and each method has different limitations.
 
 Together, they suggest that the answer to whether the drought was “unprecedented” depends on **which indicator, region, and timescale** I use.
 
-## 6. Agricultural responses to the drought: FAOSTAT analysis
-
-Having examined how unusual the 2006–2010 drought was in the climate records, I turned to its agricultural context. Using FAOSTAT data from 1961–2014, I investigated changes in the yields and total production of four major Syrian crops: wheat, barley, lentils, and seed cotton.
-
-I compared average yields during 2006–2010 with the preceding five years (2001–2005). I also examined the full historical record to see how drought-period harvests compared with earlier fluctuations. Because agricultural productivity has changed considerably over time, the recent five-year comparison is more informative than comparing absolute yields across the entire record.
-
-### Historical agricultural yields
-
-The first figure shows annual yields for all four crops from 1961 to 2014, with the drought period highlighted.
-
-![Historical Syrian crop yields, 1961–2014](/assets/fao_historical_yields.png)
-
-*Figure 3. Annual crop yields in Syria, measured in kg/ha. Each crop has its own vertical scale to make its historical fluctuations easier to examine.*
-
-The historical records show substantial fluctuations in productivity, particularly for barley and lentils. Wheat and seed cotton also display longer-term changes, making it difficult to judge the severity of the drought using absolute historical minima alone.
-
-### Comparing crops during 2006–2010
-
-To compare crops with different typical yields, I normalized each annual yield to its crop's 2001–2005 average, setting that baseline to 100. For example, a value of 60 indicates a yield 40% below the pre-drought average.
-
-![Normalized Syrian crop yields, 1996–2014](/assets/fao_normalized_yields.png)
-
-*Figure 4. Crop yields expressed as percentages of their respective 2001–2005 averages. The graph includes earlier years to provide context for the selected baseline.*
-
-The results reveal that the four crops did not respond uniformly during the drought.
-
-| Crop | Average yield change, 2006–2010 | Lowest-yield year | Lowest year vs. baseline | Production change |
-|---|---:|---:|---:|---:|
-| Wheat | −16.5% | 2008 | −46.0% | −24.3% |
-| Barley | +1.3% | 2008 | −66.8% | +8.2% |
-| Lentils | −31.9% | 2008 | −77.5% | −33.5% |
-| Seed cotton | −14.8% | 2010 | −33.4% | −31.1% |
-
-*Table 2. Changes are relative to the 2001–2005 average. Production refers to total national output rather than yield per hectare.*
-
-**Wheat and lentils experienced substantial declines.** Their average yields during the drought were 16.5% and 31.9% below the preceding five-year averages, respectively. Both reached their lowest drought-period yields in 2008. Lentils experienced the largest average yield decline of the four crops, and their 2008 yield of 251.3 kg/ha was lower than any year between 1961 and 2005. The previous minimum was 257.5 kg/ha in 1973.
-
-**Barley presents a more complicated pattern.** Its yield in 2008 was 66.8% below the 2001–2005 average, yet its average across 2006–2010 was actually 1.3% higher. Using the longer 1996–2005 baseline produces a similar result, with drought-period yields about 1.8% higher. This shows how a five-year average can conceal severe annual fluctuations, where the very poor 2008 harvest was offset by stronger barley yields in other drought years.
-
-**Seed cotton followed a different trajectory.** Its 2008 yield was only 3.9% below the pre-drought average, while wheat, barley, and lentils experienced much larger declines that year. Cotton's lowest drought-period yield occurred later, in 2010, at 33.4% below the baseline. The different timing is interesting given cotton's predominantly irrigated cultivation, but the data cannot establish whether irrigation explains the pattern.
-
-### Yield, production, and harvested area
-
-Changes in total agricultural production did not always match changes in yield. This distinction is particularly apparent for cotton, whose average yield declined by 14.8% while national production declined by 31.1%.
-
-To investigate this difference, I estimated annual harvested area using total production divided by yield. Comparing the five-year averages, implied harvested area declined by approximately 18.8% for cotton and 10.3% for wheat. Barley's implied harvested area increased by about 8.0%, while lentils showed a smaller decrease of 1.9%.
-
-These calculations suggest that changes in harvested area accompanied some of the changes in national agricultural output. However, harvested area is not the same as irrigated area, and these statistics do not establish why the changes occurred.
-
-### Limitations and interpretation
-
-The four crops also differ in their cultivation requirements. Barley and lentils are dependent on rainfall, while wheat is largely rainfed, some of it is irrigated, and seed cotton is predominantly irrigated. These differences could help explain their contrasting trajectories, but the national FAOSTAT data do not directly separate rainfed and irrigated production.
-
-Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
-
-## 7. Temperature and potential evapotranspiration: comparing two severe droughts
+## 6. Temperature and potential evapotranspiration: comparing two severe droughts
 
 My PDSI analysis found that the 2006–2010 drought was exceptionally severe, but not unprecedented within the regional instrumental record. An earlier episode around 1958–1963 recorded a slightly lower five-year mean PDSI, indicating more severe drought conditions according to that measure.
 
@@ -147,7 +94,7 @@ However, similar PDSI values do not necessarily mean two droughts occurred under
 
 ![Regional temperature and PET in the Fertile Crescent, 1901–2024](/assets/cru_long_term.png)
 
-*Figure 5. Annual mean regional temperature (°C) and annual total potential evapotranspiration (mm/year) from 1901–2024. Dashed lines represent linear trends, while shaded intervals identify the two drought periods. The annual observations summarize calendar years, whereas the drought comparisons use exact 60-month intervals.*
+*Figure 3. Annual mean regional temperature (°C) and annual total potential evapotranspiration (mm/year) from 1901–2024. Dashed lines represent linear trends, while shaded intervals identify the two drought periods. The annual observations summarize calendar years, whereas the drought comparisons use exact 60-month intervals.*
 
 The temperature record shows a long-term warming trend of approximately **0.14°C per decade** between 1901 and 2024. Annual PET also increased, at approximately **5.61 mm/year per decade**. Both records exhibit considerable year-to-year variability, and the fitted lines describe overall trends rather than changes occurring uniformly throughout the period.
 
@@ -166,7 +113,7 @@ I compared the two droughts using equal 60-month windows: April 1958–March 196
 | Exceptionally warm months | 12 of 60 | 35 of 60 |
 | Exceptionally high-PET months | 13 of 60 | 21 of 60 |
 
-*Table 3. Temperature and PET anomalies are relative to 1961–1990. Exceptional months exceed the 90th percentile for their respective calendar month during that reference period.*
+*Table 2. Temperature and PET anomalies are relative to 1961–1990. Exceptional months exceed the 90th percentile for their respective calendar month during that reference period.*
 
 The modern drought was **0.90°C warmer** than the earlier episode. Its annual-equivalent PET was also higher by approximately **31 mm/year**, representing a difference of **1.7%**.
 
@@ -192,7 +139,7 @@ To investigate whether the differences were concentrated in particular seasons, 
 
 ![Monthly temperature and PET anomalies during the two droughts](/assets/cru_seasonal_anomalies.png)
 
-*Figure 6. Average monthly temperature and PET anomalies during April 1958–March 1963 and January 2006–December 2010, relative to the corresponding calendar-month averages for 1961–1990. Each bar represents the average of five observations of that calendar month.*
+*Figure 4. Average monthly temperature and PET anomalies during April 1958–March 1963 and January 2006–December 2010, relative to the corresponding calendar-month averages for 1961–1990. Each bar represents the average of five observations of that calendar month.*
 
 The modern drought had higher temperature anomalies than the earlier drought in **10 of the 12 calendar months**, with January and December being the exceptions. Particularly large differences occurred in March, June, August, September, and October.
 
@@ -202,23 +149,76 @@ The PET pattern was less uniform. The modern drought had higher monthly PET anom
 
 This seasonal variation helps explain why the overall temperature difference between the two droughts was more pronounced than the PET difference.
 
-### Connecting climate conditions with agricultural changes
-
-The CRU results add context to the FAOSTAT analysis. Wheat, barley, and lentils all recorded their lowest drought-period yields in 2008, which also stands out as a particularly warm, high-PET year in the regional CRU graphs.
-
-This coincidence is worth investigating, but it does not establish that temperature or PET caused those agricultural declines. Crop yields also depend on precipitation timing, soil moisture, irrigation, agricultural management, and other environmental and economic factors.
-
-Furthermore, the climatic results represent averages across the Fertile Crescent, while FAOSTAT reports national agricultural statistics for Syria. The datasets therefore differ in their spatial coverage.
-
 ### Limitations and interpretation
 
 Taken together, the PDSI and CRU analyses demonstrate an important distinction. The earlier 1958–1963 drought was slightly more severe according to regional five-year mean PDSI, but the 2006–2010 drought occurred under distinctly warmer conditions and somewhat higher estimated potential evapotranspiration.
 
-Several limitations remain. The 1961–1990 climatological baseline overlaps with the earlier drought and represents a retrospective reference rather than the climate immediately preceding that event. Historical temperature and PET estimates are also subject to uncertainties associated with observational coverage and gridded-data reconstruction.
+Several limitations remain. The 1961–1990 climatological baseline overlaps with the earlier drought and represents a retrospective reference rather than the climate immediately preceding that event. Historical temperature and PET estimates are also subject to uncertainties associated with observational coverage and gridded-data reconstruction. The PDSI and CRU regional series use unweighted means of selected grid cells rather than exact area-weighted averages of the Fertile Crescent polygon.
 
-Finally, PET represents potential evaporative demand rather than actual evaporation or soil-water loss. Because PET estimates depend partly on temperature, the two variables are not fully independent indicators.
+Finally, PET represents potential evaporative demand rather than actual evaporation or soil-water loss. Because PET estimates depend partly on temperature, the two variables are not fully independent indicators. PDSI also depends partly on temperature, so the CRU temperature results provide additional context rather than a fully independent measure of drought severity.
 
 Overall, these findings suggest that the 2006–2010 drought was not unprecedented in every measure of drought severity, but it occurred under climatic conditions that differed substantially from the earlier severe episode. This distinction is central to evaluating the historical unusualness of the modern drought.
+
+## 7. Agricultural changes during the drought: FAOSTAT analysis
+
+After comparing drought severity and temperature and PET conditions, I turned to the agricultural context within Syria. Using FAOSTAT data from 1961–2014, I investigated changes in the yields and total production of four major crops: wheat, barley, lentils, and seed cotton. These national agricultural data cover a different geographic area than the Fertile Crescent climate averages, so their timing can be compared without treating them as measurements of the same locations.
+
+I compared average yields during 2006–2010 with the preceding five years (2001–2005). I also examined the full historical record to see how drought-period harvests compared with earlier fluctuations. Because agricultural productivity has changed considerably over time, the recent five-year comparison is more informative than comparing absolute yields across the entire record.
+
+### Historical agricultural yields
+
+The first figure shows annual yields for all four crops from 1961 to 2014, with the drought period highlighted.
+
+![Historical Syrian crop yields, 1961–2014](/assets/fao_historical_yields.png)
+
+*Figure 5. Annual crop yields in Syria, measured in kg/ha. Each crop has its own vertical scale to make its historical fluctuations easier to examine.*
+
+The historical records show substantial fluctuations in productivity, particularly for barley and lentils. Wheat and seed cotton also display longer-term changes, making it difficult to judge the severity of the drought using absolute historical minima alone.
+
+### Comparing crops during 2006–2010
+
+To compare crops with different typical yields, I normalized each annual yield to its crop's 2001–2005 average, setting that baseline to 100. For example, a value of 60 indicates a yield 40% below the pre-drought average.
+
+![Normalized Syrian crop yields, 1996–2014](/assets/fao_normalized_yields.png)
+
+*Figure 6. Crop yields expressed as percentages of their respective 2001–2005 averages. The graph includes earlier years to provide context for the selected baseline.*
+
+The results reveal that the four crops did not respond uniformly during the drought.
+
+| Crop | Average yield change, 2006–2010 | Lowest-yield year | Lowest year vs. baseline | Production change |
+|---|---:|---:|---:|---:|
+| Wheat | −16.5% | 2008 | −46.0% | −24.3% |
+| Barley | +1.3% | 2008 | −66.8% | +8.2% |
+| Lentils | −31.9% | 2008 | −77.5% | −33.5% |
+| Seed cotton | −14.8% | 2010 | −33.4% | −31.1% |
+
+*Table 3. Changes are relative to the 2001–2005 average. Production refers to total national output rather than yield per hectare.*
+
+**Wheat and lentils experienced substantial declines.** Their average yields during the drought were 16.5% and 31.9% below the preceding five-year averages, respectively. Both reached their lowest drought-period yields in 2008. Lentils experienced the largest average yield decline of the four crops, and their 2008 yield of 251.3 kg/ha was lower than any year between 1961 and 2005. The previous minimum was 257.5 kg/ha in 1973.
+
+**Barley presents a more complicated pattern.** Its yield in 2008 was 66.8% below the 2001–2005 average, yet its average across 2006–2010 was actually 1.3% higher. Using the longer 1996–2005 baseline produces a similar result, with drought-period yields about 1.8% higher. This shows how a five-year average can conceal severe annual fluctuations: the very poor 2008 harvest was offset by stronger barley yields in other drought years.
+
+**Seed cotton followed a different trajectory.** Its 2008 yield was only 3.9% below the pre-drought average, while wheat, barley, and lentils experienced much larger declines that year. Cotton's lowest drought-period yield occurred later, in 2010, at 33.4% below the baseline. The different timing is interesting given cotton's predominantly irrigated cultivation, but the data cannot establish whether irrigation explains the pattern.
+
+### Yield, production, and harvested area
+
+Changes in total agricultural production did not always match changes in yield. This distinction is particularly apparent for cotton, whose average yield declined by 14.8% while national production declined by 31.1%.
+
+To investigate this difference, I estimated annual harvested area using total production divided by yield. Comparing the five-year averages, implied harvested area declined by approximately 18.8% for cotton and 10.3% for wheat. Barley's implied harvested area increased by about 8.0%, while lentils showed a smaller decrease of 1.9%.
+
+These calculations suggest that changes in harvested area accompanied some of the changes in national agricultural output. However, harvested area is not the same as irrigated area, and these statistics do not establish why the changes occurred.
+
+### Connecting the agricultural changes to the climate evidence
+
+The CRU results provide useful context for these FAOSTAT observations. Wheat, barley, and lentils all recorded their lowest drought-period yields in 2008, which also appears as a particularly warm, high-PET year in the regional climate record. This coincidence is worth investigating, but it does not establish that temperature or PET caused the agricultural declines. Crop yields also depend on precipitation timing, soil moisture, irrigation, management practices, and economic conditions.
+
+The climate series describe averages across the Fertile Crescent, whereas FAOSTAT summarizes national agricultural statistics for Syria. This difference in spatial coverage further limits any direct inference from regional climate conditions to particular crop outcomes.
+
+### Limitations and interpretation
+
+The four crops also differ in their cultivation requirements. Barley and lentils are dependent on rainfall, while wheat is largely rainfed, some of it is irrigated, and seed cotton is predominantly irrigated. These differences could help explain their contrasting trajectories, but the national FAOSTAT data do not directly separate rainfed and irrigated production.
+
+Overall, the agricultural records show substantial disruption during the drought interval, especially in 2008, but not a uniform decline across all crops or years. They also demonstrate why distinguishing annual extremes, five-year averages, and total production is important. The observed changes coincided with the drought, but additional evidence would be needed to determine how much was caused by climate rather than agricultural practices, irrigation access, or policy.
 
 ## 8. Irrigation and water resources in Syria: AQUASTAT analysis
 
@@ -234,7 +234,7 @@ I therefore focused on two variables that provided more informative year-to-year
 
 *Figure 7. Changes in groundwater-equipped and total irrigation-equipped area in Syria from 1993–2014, measured in thousand hectares. Circles represent values not flagged as imputed (A/E), including estimates, while X markers identify imputed values (I). The shaded region marks the 2006–2010 drought.*
 
-Both series increased throughout the 1990s and early 2000s, reaching their highest values around 2004. They subsequently declined, with particularly sharp decreases during the drought period, before partially recovering in 2010.
+Both series increased throughout the 1990s and early 2000s, reaching their highest values in 2004. They subsequently declined, with particularly sharp decreases during the drought period, before partially recovering in 2010.
 
 The decline was more pronounced for groundwater-equipped irrigation area than for total equipped irrigation area.
 
@@ -271,7 +271,7 @@ Finally, the timing of the irrigation-area decline coincides with the drought, b
 
 Overall, AQUASTAT provides evidence of a substantial decline in Syria's recorded irrigation-equipped area during the 2006–2010 drought, particularly for groundwater-equipped irrigation. It adds an important water-management dimension to the climate and agricultural analyses, while also demonstrating the limitations of using estimated national statistics to reconstruct annual drought impacts.
 
-## 9. Population growth, urbanization, and rural displacement
+## 9. Population growth, urbanization, and demographic context
 
 Having examined the climatic, agricultural, and irrigation-related dimensions of the drought, I turned to its demographic context. The 2006–2010 drought was not simply an environmental event. For many rural Syrian communities dependent on farming and livestock, declining agricultural productivity and water shortages threatened their livelihoods and encouraged families to seek work and opportunities elsewhere.
 
@@ -346,3 +346,9 @@ Third, urban population growth is not equivalent to rural-to-urban migration. Po
 Overall, the UN data show a marked acceleration in the growth of Syria's cities-and-towns population during the drought period, particularly around 2006–2007. When considered alongside historical accounts and research on rural displacement, these findings provide an important demographic dimension to the drought.
 
 The evidence suggests that the consequences of the drought cannot be understood through climate records alone. Agricultural vulnerability, water-management practices, economic conditions, and the ability of rural communities to adapt all shaped how people experienced and responded to the crisis.
+
+## 10. What the combined evidence suggests
+
+The answer to whether Syria's 2006–2010 drought was unprecedented depends on the measure and scale of comparison. In the regional instrumental PDSI record, it was exceptionally dry, but an earlier five-year interval around 1958–1963 was drier. The modern drought was nevertheless warmer and had somewhat higher estimated PET than that earlier episode. At Gejkar Cave, 2006–2010 had the highest mean δ¹⁸O among qualifying five-year windows, but uneven sampling and dating uncertainty prevent a claim that no more extreme interval occurred across the full span of the cave record.
+
+The Syrian agricultural, irrigation, and demographic datasets show important changes during overlapping years, though not in uniform ways. They help describe the broader context in which the drought occurred, but their national scale and observational limitations do not establish how much of each change was caused by drought. Taken together, the records show why judging an event's climatic unusualness and understanding its consequences require different kinds of evidence.
