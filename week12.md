@@ -70,13 +70,15 @@ Those eight windows were not eight separate drought events. They overlap heavily
 
 This means that **2006–2010 was exceptionally dry in the instrumental regional record, but not the driest five-year interval** under this method. Because the rolling windows overlap, their count should not be treated as a count of independent drought events.
 
-There are also spatial limitations. PDSI is available on a coarse 2.5° grid, and I included all grid cells touched by my Fertile Crescent polygon. The number of available regional cells also changes during the early part of the record. As a coverage diagnostic, May 2008 remained the driest individual month when I restricted the comparison to months with at least 75% of the maximum grid-cell coverage. The earlier five-year windows that were as dry or drier than 2006–2010 all occur around 1958–1963, well after the period of thinnest early coverage.
+There are also spatial limitations. PDSI is available on a coarse 2.5° grid, and I included all grid cells touched by my Fertile Crescent polygon. The number of available regional cells changes during the earlier part of the record. As a coverage diagnostic, May 2008 remained the driest individual month when restricting the comparison to months with at least 75% of the maximum grid-cell coverage. This check applies to individual monthly extremes rather than the complete five-year ranking. However, the earlier five-year windows identified as equally dry or drier than 2006–2010 all fall around 1958–1963, well after the period of thinnest early coverage.
 
 ## 5. Comparing the two climate records
 
 The Gejkar and PDSI results offer different perspectives. The 2006–2010 isotope mean is the highest among qualifying Gejkar windows, while the regional PDSI record includes an earlier five-year interval around 1958–1963 that was drier by its index.
 
-This is not necessarily a contradiction. The cave record reflects local environmental and hydrological processes, whereas regional PDSI estimates drought conditions across a much larger area. Their time coverage, sampling frequency, and uncertainties are also different. I cannot directly convert Gejkar δ¹⁸O values into PDSI values or assume that they describe identical drought conditions.
+This is not necessarily a contradiction. The cave record reflects local environmental and hydrological processes, whereas regional PDSI estimates drought conditions across a much larger area. Their time coverage, sampling frequency, and uncertainties are also different. I cannot directly convert Gejkar δ18O values into PDSI values or assume that they describe identical drought conditions.
+
+Although both analyses use five-year periods, they construct them differently. Gejkar measurements are irregularly spaced, so I use non-overlapping five-year bins with a minimum sample requirement. PDSI provides monthly observations, allowing me to calculate rolling 60-month averages. The resulting numbers of historical windows are therefore not directly comparable, and each method has different limitations.
 
 Together, they suggest that the answer to whether the drought was “unprecedented” depends on **which indicator, region, and timescale** I use.
 
