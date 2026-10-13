@@ -34,13 +34,11 @@ Each point represents a five-year window containing at least three isotope measu
 
 *Figure 1. Interactive Gejkar Cave δ¹⁸O comparison using non-overlapping five-year windows with at least three samples. Vertical ranges show the observed minimum and maximum, not confidence intervals.*
 
-However, the historical coverage is uneven. There are no cave measurements between approximately 351 and 933 CE. Between about 933 and 1896 CE, measurements exist, but sampling is sparse; only one five-year interval meets my main three-sample requirement.
-
 ## 3. What the Gejkar analysis reveals
 
 The 2006–2010 window has a mean δ¹⁸O of **−3.137‰ VPDB**, calculated from five measurements. It has the highest mean among the **94 qualifying five-year windows**, including the modern interval. The next highest is 2001–2005, with a mean of approximately −3.66‰.
 
-However, the historical coverage is uneven. There are no cave measurements between approximately 351 and 933 CE. Between about 933 and 1896 CE, measurements exist, but the five-year windows do not meet my main three-sample requirement.
+However, the historical coverage is uneven. There are no cave measurements between approximately 351 and 933 CE. Between about 933 and 1896 CE, measurements exist, but sampling is sparse; only one five-year interval meets my main three-sample requirement.
 
 I tested how the result changes when I require different minimum numbers of measurements:
 
