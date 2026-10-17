@@ -4,7 +4,7 @@ title: Project Update – Week 12
 permalink: /week12.html
 ---
 
-[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html) | [Final Analysis](/final-analysis.html)
+[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html) | [Week 14](/week14.html) | [Final Analysis](/final-analysis.html)
 
 ---
 
