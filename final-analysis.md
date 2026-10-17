@@ -12,13 +12,17 @@ permalink: /final-analysis.html
 
 ### A historical and modern perspective
 
-**CS-215 Data Science Final Project — Final Analysis**
+**CS-215 Data Science Final Project - Final Analysis**
 
 ## The central finding
 
-Was the drought that affected Syria between 2006 and 2010 unlike anything the region had experienced before? My analysis suggests that there is no single answer without first defining what *unprecedented* means: unprecedented in drought severity, in the climate conditions accompanying it, or in the length of the historical record used for comparison?
+Was the drought that affected Syria between 2006 and 2010 unlike anything the region had experienced before? My analysis suggests that there is no single answer without first defining what *unprecedented* means: 
 
-The regional Palmer Drought Severity Index (PDSI) places 2006–2010 among the driest five-year periods in the instrumental record, but an earlier episode around 1958–1963 was slightly drier by that measure. At Gejkar Cave in northern Iraq, the modern interval has the highest average oxygen-isotope value among the five-year windows with enough samples for comparison, although gaps and dating uncertainties prevent that result from establishing a drought record across the entire past 2,400 years. Meanwhile, temperature data show that the 2006–2010 drought took place under substantially warmer conditions than the earlier severe episode.
+unprecedented in drought severity?
+unprecedented in the climate conditions accompanying it?  
+unprecedented over the past century, or over tens of thousands of years?
+
+The regional Palmer Drought Severity Index (PDSI) places 2006–2010 among the driest five-year periods in the instrumental record, but an earlier episode around 1958–1963 was slightly drier by that measure. At Gejkar Cave in northern Iraq, the modern interval has the highest average oxygen-isotope value among the five-year windows with enough samples for comparison, although gaps and dating uncertainties prevent that result from establishing a drought record across the entire past 2,400 years. Meanwhile, temperature data show that the 2006–2010 drought took place under substantially warmer conditions than the earlier severe drought period.
 
 The broader picture is therefore more interesting than a simple yes or no. The drought was exceptionally severe, but its historical ranking depends on the evidence examined. The agricultural, irrigation, and population records also show why climate severity alone cannot explain what happened in Syria during those years.
 
