@@ -30,6 +30,6 @@ The result appears in my [Week 12 update](/week12.html). Interactivity is especi
 
 ## 3. Communication strategy
 
-I plan to tell the story in three stages: **how severe the drought was historically**, **what made its climatic conditions different**, and **what the agricultural, irrigation, and population records reveal about the period**. I will end by distinguishing observed changes from causal claims the data cannot support, especially regarding migration.
+I plan to tell the story in three stages: **how severe the drought was historically**, **what made its climatic conditions different**, and **what the agricultural, irrigation, and population records reveal about the drought period**. 
 
-I will select a few visuals that directly advance this narrative: the interactive Gejkar graph, the five-year PDSI plot, the seasonal temperature/PET comparison, and the normalized crop-yield plot. The more detailed figures and methods will remain available in Week 12. For the class presentation, I plan to **present directly from the [Final Analysis webpage](/final-analysis.html)** rather than build a separate slide deck.
+I will select a few visuals that directly advance this narrative: the interactive Gejkar graph, the five-year PDSI plot, the seasonal temperature/PET comparison, and the normalized crop-yield plot. The more detailed figures and methods will remain available in Week 12. To compensate for the class presentation, I plan to condense my findings from both [Week 12](/week12.html) and [Final Analysis webpage](/final-analysis.html) into a short slide presentation. 
