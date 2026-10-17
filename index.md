@@ -4,7 +4,7 @@ title: Syria's 2006–2010 Drought – A Historical and Modern Perspective
 permalink: /
 ---
 
-[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html) | [Final Analysis](/final-analysis.html)
+[Home](/) | [Week 9](/week9.html) | [Week 11](/week11.html) | [Week 12](/week12.html) | [Week 14](/week14.html) | [Final Analysis](/final-analysis.html)
 
 ---
 
